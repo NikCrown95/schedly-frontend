@@ -1,4 +1,4 @@
-const Logo=()=> <a className="brand" href="/" aria-label="Schedly"><span className="brandMark logoMark"><span className="logoCal"/><span className="logoCheck">✓</span></span><span>Schedl<span className="brandY">y</span></span></a>;
+const Logo=()=> <a className="brand" href="/" aria-label="Schedly"><img className="officialLogo" src="/schedly-logo.png" alt="Schedly" /></a>;
 const Bot=()=> <span className="bot" aria-hidden="true">✦</span>;
 export default function Home(){return <main className="home mockHome">
 <section className="mockHero"><nav className="nav"><Logo/><div className="navLinks"><a href="/prodotto">Prodotto</a><a href="/come-funziona">Come funziona</a><a href="/prezzi">Prezzi</a><a href="/faq">FAQ</a></div><div className="navActions"><a href="/login">Accedi</a><a className="button buttonSmall" href="/demo">Richiedi una demo →</a></div><span className="mobileMenu">☰</span></nav>
