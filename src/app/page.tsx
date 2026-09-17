@@ -1,43 +1,12 @@
-export default function Home() {
-  return (
-    <main className="home homeApproved">
-      <section className="homeHeroShell">
-        <nav className="nav homeNav">
-          <a className="brand" href="/" aria-label="Schedly home"><span className="brandMark logoMark"><span className="logoCal"/><span className="logoCheck">✓</span></span><span>Schedl<span className="brandY">y</span></span></a>
-          <div className="navLinks"><a href="/prodotto">Prodotto</a><a href="/come-funziona">Come funziona</a><a href="/prezzi">Prezzi</a><a href="/faq">FAQ</a></div>
-          <div className="navActions"><a href="/login">Accedi</a><a className="button buttonSmall" href="/demo">Richiedi una demo</a></div>
-        </nav>
-
-        <div className="homeHero">
-          <div className="heroCopy">
-            <p className="eyebrow">IL TUO ASSISTENTE PER GLI APPUNTAMENTI</p>
-            <h1>Mentre lavori,<br/><span>Schedly prende gli appuntamenti per te.</span></h1>
-            <p className="lead">WhatsApp, prenotazioni online e agenda lavorano insieme. I tuoi clienti prenotano, Schedly organizza tutto automaticamente.</p>
-            <div className="heroActions"><a className="button" href="/demo">Richiedi una demo <span>→</span></a><a className="textLink" href="/come-funziona">Scopri come funziona →</a></div>
-            <p className="micro">Demo gratuita · Nessun impegno · Configurazione assistita</p>
-          </div>
-
-          <div className="productVisual homeProduct" aria-label="WhatsApp collegato all'agenda Schedly">
-            <div className="scribble">WhatsApp → Schedly → Agenda</div>
-            <div className="dashboardCard homeDashboard">
-              <div className="windowBar"><i/><i/><i/><strong>Schedly</strong></div>
-              <div className="dashBody"><aside><b>S</b><span/><span/><span/><span/></aside><div className="calendar"><div className="calendarTop"><div><small>AGENDA</small><strong>Oggi</strong></div><small>Settembre</small></div><div className="days"><span>LUN</span><span>MAR</span><span>MER</span><span>GIO</span><span>VEN</span></div><div className="grid"><div/><div className="appointment one">09:30 · Taglio</div><div/><div className="appointment two">11:00 · Barba</div><div/><div/><div/><div className="appointment three">16:30 · Giulia Rossi</div></div></div></div>
-            </div>
-            <div className="phone homePhone"><div className="notch"/><div className="chatHead"><span className="bot">S</span><div><b>Schedly AI</b><small>● online</small></div></div><div className="chat"><p className="bubble customer">Ciao! Avete posto domani pomeriggio?</p><p className="bubble ai">Certo! Ho disponibilità alle <b>15:00</b>, <b>16:30</b> o <b>18:00</b>.</p><p className="bubble customer short">Perfetto, 16:30!</p><p className="bubble ai">Fatto ✓<br/>Appuntamento confermato.</p></div></div>
-            <div className="successCard homeSuccess"><span>✓</span><div><b>Appuntamento creato</b><small>Domani · 16:30</small></div></div>
-          </div>
-        </div>
-        <div className="heroCurve"/>
-      </section>
-
-      <section className="homeIntro"><p className="eyebrow">UN SOLO SISTEMA</p><h2>Dal messaggio all’agenda.<br/><span>Senza interrompere il tuo lavoro.</span></h2><p>Schedly riunisce WhatsApp, booking online e gestionale in un unico flusso. Ogni appuntamento finisce nella stessa agenda, sempre aggiornata.</p></section>
-
-      <section className="homeProof"><div className="proofFlow"><article><span>01</span><b>Il cliente scrive</b><small>Su WhatsApp o dal booking online</small></article><i>→</i><article><span>02</span><b>Schedly organizza</b><small>Controlla servizi e disponibilità</small></article><i>→</i><article><span>03</span><b>L’agenda si aggiorna</b><small>Automaticamente, in tempo reale</small></article></div></section>
-
-      <section className="homeFeature"><div><p className="eyebrow">MENO INTERRUZIONI</p><h2>Tu pensi ai clienti.<br/><span>Schedly pensa agli appuntamenti.</span></h2><p>Una sola agenda per tutte le prenotazioni. Niente messaggi persi, niente doppie prenotazioni, niente tempo sprecato a rincorrere conferme.</p><a className="textLink" href="/prodotto">Scopri il prodotto →</a></div><div className="featureCard"><span className="featureBot">S</span><div><small>ASSISTENTE SCHEDLY</small><strong>Al lavoro anche mentre tu sei occupato.</strong></div><div className="statusLine"><i/> Assistente attivo</div></div></section>
-
-      <section className="homeCta"><p>IL TUO TEMPO VALE DI PIÙ.</p><h2>Lascia che Schedly gestisca<br/>gli appuntamenti per te.</h2><a className="button light" href="/demo">Richiedi una demo gratuita →</a><small>20 minuti · Nessun impegno</small></section>
-      <footer className="footer"><a className="brand" href="/"><span className="brandMark logoMark"><span className="logoCal"/><span className="logoCheck">✓</span></span><span>Schedly</span></a><div><a href="/prodotto">Prodotto</a><a href="/come-funziona">Come funziona</a><a href="/prezzi">Prezzi</a><a href="/faq">FAQ</a></div><small>© 2026 Schedly</small></footer>
-    </main>
-  );
-}
+const Logo=()=> <a className="brand" href="/"><span className="brandMark logoMark"><span className="logoCal"/><span className="logoCheck">✓</span></span><span>Schedl<span className="brandY">y</span></span></a>;
+const Bot=()=> <span className="bot">🤖</span>;
+export default function Home(){return <main className="home mockHome">
+<section className="mockHero"><nav className="nav"><Logo/><div className="navLinks"><a href="/prodotto">Prodotto</a><a href="/come-funziona">Come funziona</a><a href="/prezzi">Prezzi</a><a href="/faq">FAQ</a></div><div className="navActions"><a href="/login">Accedi</a><a className="button buttonSmall" href="/demo">Richiedi una demo →</a></div></nav>
+<div className="mockHeroGrid"><div className="mockCopy"><div className="activePill"><i/> Attivo 24/7 su WhatsApp</div><h1>Mentre lavori,<br/><span>Schedly</span> prende<br/>gli appuntamenti.</h1><p>L’assistente AI che risponde ai tuoi clienti su WhatsApp,<br/>trova disponibilità e gestisce automaticamente la tua agenda.</p><form className="emailCta"><input aria-label="La tua email" placeholder="La tua email"/><a href="/demo">Richiedi una demo&nbsp; →</a></form><div className="benefits"><span>✓ &nbsp;Attivazione in pochi minuti</span><span>✓ &nbsp;Nessuna carta di credito</span><span>✓ &nbsp;Assistenza dedicata</span></div><div className="handNote noteLeft">I tuoi clienti<br/>prenotano su WhatsApp. ↗</div></div>
+<div className="heroScene"><div className="screen"><div className="screenTop"><b>🤖 Schedly</b><input placeholder="Cerca clienti, appuntamenti..."/><button>+ Nuovo appuntamento</button></div><div className="screenBody"><aside>▣ Dashboard<br/>▣ Calendario<br/>▣ Appuntamenti<br/>▣ Clienti</aside><div className="cal"><h3>Calendario</h3><small>Settimana　 16 – 22 Settembre 2024</small><div className="calDays">Lun 16　　Mar 17　　Mer 18　　Gio 19　　Ven 20</div><div className="calGrid"><i className="ev e1">Marco Rossi<br/>Taglio</i><i className="ev e2">Giulia Verdi<br/>Piega</i><i className="ev e3">Luca Bianchi<br/>Barba</i><i className="ev e4">Giulia Conti<br/>Colore</i><i className="ev e5">Martina Riva<br/>Trattamento</i></div></div></div></div>
+<div className="mockPhone"><div className="phoneTop">9:41　　<b>Laura Bianchi</b></div><div className="mockChat"><p className="customer">Ciao, avete disponibilità domani pomeriggio?</p><p><Bot/> Certo! Ho trovato queste disponibilità per domani:</p><div className="slots"><span>15:00</span><b>16:30</b><span>18:00</span></div><p className="customer">Perfetto, 16:30!</p><p><Bot/> Fatto! ✅<br/>Ho prenotato il tuo appuntamento per domani alle 16:30.<br/>A presto! 💙</p></div><div className="phoneInput">Scrivi un messaggio...　➤</div></div><div className="created"><b>✓</b><div><strong>Appuntamento creato</strong><span>Laura Bianchi<br/>Piega · Domani 16:30</span></div></div><div className="handNote noteRight">... e tu trovi tutto<br/>nel tuo calendario.</div></div></div><div className="heroWave"/></section>
+<section className="trusted"><p>PENSATO PER ATTIVITÀ COME LA TUA</p><div><span>✂ The Barber Studio</span><span>✿ Bellezza Milano</span><span>◉ HealthyLab</span><span>♙ Studio Medico</span><span>⌁ Move&amp;Care</span><span>♢ StyleRoom</span></div></section>
+<section className="waSection"><div><b className="tag">WHATSAPP AI</b><h2>I tuoi clienti scrivono.<br/>Schedly fa il resto.</h2><p>Rispondi automaticamente, proponi le disponibilità,<br/>conferma gli appuntamenti e riduci le cancellazioni.<br/>Tutto su WhatsApp, in modo naturale.</p><a href="/come-funziona">Scopri come funziona →</a></div><div className="chatDemo"><p className="customer">🟢　Avete posti sabato mattina?</p><p><Bot/> Certo! Abbiamo disponibilità<br/>alle 9:00, 10:30 e 12:00.<br/>Quale preferisci?</p><p>👩　10:30</p><p><Bot/> Perfetto! Ti aspetto<br/>sabato alle 10:30.<br/>A presto!</p></div><div className="aiList"><p>◉　Risponde 24/7</p><p>▣　Controlla la disponibilità</p><p>⚒　Gestisce modifiche e cancellazioni</p><p>◉　Parla il tuo linguaggio</p><p>◷　Ti fa risparmiare tempo</p></div></section>
+<section className="dashSection"><div className="dashPreview"><aside><b>🤖 Schedly</b><span>▣ Dashboard</span><span>▣ Calendario</span><span>▣ Appuntamenti</span><span>▣ Clienti</span><span>▣ Servizi</span><span>▣ Messaggi</span><span>⚙ Impostazioni</span></aside><div><h3>Dashboard</h3><div className="kpis"><b>Appuntamenti oggi<br/><strong>12</strong></b><b>Nuovi clienti<br/><strong>8</strong></b><b>Fatturato<br/><strong>€ 320</strong></b><b>Tasso di conferma<br/><strong>96%</strong></b></div><h4>Prossimi appuntamenti</h4><p>10:30　Laura Bianchi　 Piega</p><p>11:00　Marco Rossi　　 Taglio</p><p>12:00　Giulia Verdi　　 Colore</p><p>14:30　Luca Ferrari　　 Barba</p><p>16:30　Martina Conti　 Trattamento</p></div></div><div className="dashCopy"><b className="tag">GESTIONALE COMPLETO</b><h2>La tua attività.<br/>Tutto in un unico posto.</h2><p>Calendario, clienti, servizi, statistiche e molto altro.<br/>Schedly ti dà il controllo, mentre l’AI si occupa<br/>delle prenotazioni.</p><a className="button" href="/prodotto">Guarda la dashboard →</a></div></section>
+<section className="industries"><p>PENSATO PER OGNI ATTIVITÀ</p><div><span>✂<small>Parrucchieri<br/>e barbieri</small></span><span>✿<small>Centri estetici</small></span><span>♧<small>Studi medici<br/>e dentistici</small></span><span>🏋<small>Personal trainer</small></span><span>♨<small>Massaggiatori</small></span><span>✎<small>Tattoo studio</small></span><span>▣<small>Consulenti<br/>e professionisti</small></span><span>•••<small>E molto altro</small></span></div></section>
+</main>}
