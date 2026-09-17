@@ -1,0 +1,31 @@
+/* Home-only visual corrections based on the rendered iPad screenshots */
+@media (min-width:951px){
+  .mockHero{height:660px}
+  .mockHeroGrid{height:565px;padding-top:42px}
+  .mockCopy{padding-top:8px}
+  .mockCopy h1{font-size:60px;line-height:.95;margin-top:24px}
+  .mockCopy>p{font-size:15.5px;max-width:535px}
+  .heroScene{height:535px;transform:translateX(8px)}
+  .screen{left:98px;top:18px;width:620px;height:438px}
+  .mockPhone{left:-5px;top:125px;width:202px;height:405px}
+  .created{right:12px;bottom:43px}
+  .noteLeft{left:250px;bottom:32px;font-size:13px}
+  .noteRight{right:8px;bottom:-2px;font-size:13px}
+  .trusted{height:126px;padding-top:34px}
+  .waSection{min-height:330px;padding-top:52px;padding-bottom:52px}
+  .dashSection{height:365px}
+  .dashPreview{height:335px}
+  .industries{padding-top:22px;padding-bottom:38px}
+}
+@media (min-width:951px) and (max-width:1150px){
+  .nav,.mockHeroGrid{padding-left:34px;padding-right:34px}
+  .mockHeroGrid{grid-template-columns:48% 52%}
+  .mockCopy h1{font-size:49px;letter-spacing:-3px}
+  .mockCopy>p{font-size:13px}
+  .emailCta{width:390px}
+  .benefits{gap:12px;font-size:8px}
+  .heroScene{transform:scale(.82);transform-origin:top left;width:122%}
+  .noteLeft{left:190px}
+  .waSection{padding-left:34px;padding-right:34px;gap:28px}
+  .dashCopy{padding-left:40px}
+}
