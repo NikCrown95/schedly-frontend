@@ -107,3 +107,26 @@
  .mobileMock .mPricingToggle{user-select:none}
  .mobileMock .mForm select{appearance:auto}
 }
+
+/* Product-led mobile home, corrected pricing, trial and premium navigation */
+@media(max-width:768px){
+ .mHomeProduct,.mDashboardSection{margin:42px -28px 0;padding:38px 28px;border-top:1px solid #e7edf6}
+ .mHomeProduct{background:linear-gradient(180deg,rgba(247,250,255,.8),#fff)}
+ .mHomeProduct h2,.mDashboardSection h2{font-size:29px;line-height:1.02;letter-spacing:-1.5px;margin:0 0 13px}
+ .mHomeProduct .mFeatureList{margin:20px 0 14px}.mHomeProduct .mFeatureCard{min-height:74px;padding:14px 15px}
+ .mTextLink{display:inline-flex;padding:10px 0;color:var(--m-blue);font-size:12px;font-weight:800;text-decoration:none}
+ .mDashboardSection{padding-bottom:8px;background:radial-gradient(circle at 80% 25%,#eef5ff 0,transparent 190px),#fff}
+ .mDashboardMock{margin:20px 0 22px;padding:15px;border:1px solid #dfe8f3;border-radius:19px;background:#fff;box-shadow:0 18px 45px rgba(27,55,105,.1)}
+ .mDashBar,.mDashTitle{display:flex;justify-content:space-between;align-items:center}.mDashBar{padding:3px 2px 13px;font-size:12px}.mDashBar span{color:#9ba7b8}
+ .mDashStats{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:15px}.mDashStats div{padding:12px;border-radius:12px;background:#f6f9fd}.mDashStats small,.mDashStats em{display:block;font-size:7px;color:#8491a5;font-style:normal}.mDashStats b{display:block;font-size:22px;margin:3px 0}
+ .mDashTitle{font-size:9px;margin:0 2px 7px}.mDashTitle small{color:#8c98aa}
+ .mDashRow{display:grid;grid-template-columns:5px 34px 1fr auto;gap:7px;align-items:center;padding:9px 2px;border-top:1px solid #edf1f6;font-size:8px}.mDashRow i{height:26px;border-radius:4px;background:#1682f8}.mDashRow:nth-of-type(5) i{background:#8b5cf6}.mDashRow:nth-of-type(6) i{background:#25d366}.mDashRow span small{display:block;color:#8995a7;margin-top:2px}.mDashRow em{font-style:normal;color:#15985a;background:#eaf9f1;border-radius:9px;padding:4px 6px;font-size:6px}
+ .mPricingPage .mPricingToggle{display:none}.mSetupPrice{font-size:10px;color:#69768c;margin:7px 0 12px;font-weight:700}.mPricingPage .mPlan>p{margin:3px 0 10px;line-height:1.45}.mPricingPage .mPopular{background:#e9fbf1;color:#13995a;letter-spacing:.5px}
+ .mSetupCard{display:grid;grid-template-columns:34px 1fr;gap:11px;align-items:start;padding:16px;margin:18px 0 4px;border-radius:15px;background:#f5f8fd;border:1px solid #e1e9f4}.mSetupCard b{font-size:11px}.mSetupCard p{font-size:9px;line-height:1.45;color:#6e7b90;margin:5px 0 0}
+ .mTrialBenefits{display:grid;gap:9px;margin:0 0 21px}.mTrialBenefits>div{display:grid;grid-template-columns:38px 1fr;gap:10px;align-items:center;padding:11px 13px;border:1px solid #e2e9f3;border-radius:13px;background:#fff}.mTrialBenefits b{width:38px;height:38px;border-radius:10px;background:#edf6ff;color:#1682f8;display:grid;place-items:center;font-size:16px}.mTrialBenefits span{font-size:11px;font-weight:800}.mTrialBenefits small{display:block;margin-top:2px;color:#7b8799;font-size:8px;font-weight:500}.mTrialAfter{margin-top:20px;padding:16px;border-radius:15px;background:#f5f8fd;border:1px solid #e3eaf4}.mTrialAfter b{font-size:11px}.mTrialAfter p{font-size:9px;line-height:1.55;color:#6e7a8e;margin:6px 0 0}
+ .mobileMenuPanel{inset:10px!important;padding:78px 18px 20px!important;border:1px solid rgba(220,230,243,.9);border-radius:24px;background:rgba(255,255,255,.97)!important;box-shadow:0 24px 70px rgba(18,42,78,.18);backdrop-filter:blur(24px)}
+ .mobileMenuPanel nav{gap:7px}.mobileMenuPanel nav a{border:0!important;border-radius:13px;padding:13px 14px!important;background:#f7f9fc;font-size:17px!important;letter-spacing:-.4px}.mobileMenuPanel nav a span{width:28px;height:28px;border-radius:9px;background:#fff;display:grid;place-items:center;box-shadow:0 3px 10px rgba(20,45,85,.06)}
+ .mobileMenuPanel nav a.isCurrent{background:#edf6ff;color:#147cff}.mobileMenuPanel nav a.isCurrent:before{display:none}
+ .mobileMenuActions{padding-top:14px;border-top:1px solid #e8edf4}.mobileMenuActions>a:first-child{border:1px solid #e1e8f2;border-radius:12px;background:#fff}.mobileMenuActions .button{border-radius:12px!important}
+}
+@media(max-width:370px){.mHomeProduct,.mDashboardSection{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px}}
