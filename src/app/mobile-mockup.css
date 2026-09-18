@@ -94,3 +94,16 @@
 @media(prefers-reduced-motion:reduce){
  .mBtn,.mGoogle,.mobileMenuPanel{transition:none!important}
 }
+
+/* Isolation from legacy mobile rules */
+@media(max-width:768px){
+ .mobileMock{position:relative;z-index:1}
+ body:has(.mobileMock)>.mobileMock{display:block}
+ .mobileMock button,.mobileMock input,.mobileMock select,.mobileMock textarea{font-family:inherit}
+ .mobileMock .mBtn{width:100%;box-sizing:border-box}
+ .mobileMock .mLogo{width:auto;height:auto;flex:none;font-size:20px;line-height:1.1}
+ .mobileMock .mLogoMark{flex:0 0 30px}
+ .mobileMock .mHeader a{line-height:1.1}
+ .mobileMock .mPricingToggle{user-select:none}
+ .mobileMock .mForm select{appearance:auto}
+}
