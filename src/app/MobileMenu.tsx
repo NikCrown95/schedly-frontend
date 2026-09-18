@@ -7,7 +7,7 @@ const items = [
   { href: "/prodotto", label: "Prodotto" },
   { href: "/come-funziona", label: "Come funziona" },
   { href: "/prezzi", label: "Prezzi" },
-  { href: "/demo", label: "Demo" },
+  { href: "/demo", label: "Prova gratuita" },
   { href: "/faq", label: "FAQ" },
 ];
 
@@ -40,7 +40,7 @@ export default function MobileMenu() {
         </nav>
         <div className="mobileMenuActions">
           <a href="/login" onClick={() => setOpen(false)}>Accedi</a>
-          <a className="button" href="/demo" onClick={() => setOpen(false)}>Richiedi una demo →</a>
+          <a className="button" href="/demo" onClick={() => setOpen(false)}>Prova gratis 7 giorni →</a>
         </div>
       </div>
     </>
