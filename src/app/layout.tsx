@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./mobile-mockup.css";
 import "./globals.css";
 import "./home-polish.css";
 import "./marketing-pages.css";
@@ -7,6 +6,7 @@ import "./product-reference.css";
 import "./logo.css";
 import "./how-approved.css";
 import "./home-reference-fix.css";
+import "./mobile-mockup.css";
 
 export const metadata: Metadata = {
   title: "Schedly — Appuntamenti, senza perdere tempo",
