@@ -1,4 +1,3 @@
-import MobileMenu from "./MobileMenu";
 import {MHeader,PhoneArt,MIcon} from "./MobileMock";
 const Logo=()=> <a className="brand homeBrand" href="/" aria-label="Schedly"><span className="homeBrandIcon" aria-hidden="true"><i/><b>••</b></span><strong>Schedl<span>y</span></strong></a>;
 const Bot=()=> <span className="bot" aria-hidden="true"><img src="/schedly-logo.png" alt="" /></span>;
