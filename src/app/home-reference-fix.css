@@ -154,37 +154,7 @@
  .toastArrow:after{content:""!important;position:absolute!important;right:1px!important;top:5px!important;width:10px!important;height:10px!important;border-top:3px solid #071331!important;border-right:3px solid #071331!important;transform:rotate(45deg)!important}
 }
 
-/* 2026-09-18 reference lock: desktop/tablet keeps the approved mockup proportions.
-   Phone no longer switches to an unrelated mobile redesign; it renders the same composition
-   at a readable fixed design width, matching the supplied reference instead of reflowing. */
-@media(max-width:650px){
-  html,body{min-width:1180px!important;overflow-x:auto!important}
-  .home{width:1180px!important;overflow:visible!important}
-  .mobileMenu,.mobileEyebrow,.mobileHeadline,.mobileIntro,.mobileDemo,.mobileBenefits,.mobileHow,.mobileAction,.mobileIndustryTitle,.mobileFinal,.mobileFooter,.mobileFloat{display:none!important}
-  .desktopHeadline,.desktopIntro{display:inline!important}
-  .navActions,.navLinks{display:flex!important}
-  .mockHero{height:630px!important;min-height:630px!important;overflow:hidden!important;padding:0!important}
-  .nav{height:70px!important;max-width:1120px!important;margin:auto!important;padding:0 30px!important;background:transparent!important}
-  .nav>.brand{display:block!important;width:154px!important;min-width:154px!important;height:58px!important}
-  .nav>.brand>.officialLogo{display:block!important;width:154px!important;min-width:154px!important;opacity:1!important;visibility:visible!important}
-  .navLinks,.navActions{gap:34px!important;font-size:10px!important}
-  .mockHeroGrid{display:grid!important;max-width:1120px!important;height:535px!important;margin:auto!important;padding:35px 30px 0!important;grid-template-columns:44% 56%!important}
-  .mockCopy{padding-top:6px!important}.activePill{display:inline-flex!important;font-size:9px!important;padding:6px 11px!important}
-  .mockCopy h1{font-size:50px!important;line-height:.96!important;letter-spacing:-3.3px!important;margin:22px 0 18px!important}
-  .mockCopy>p{font-size:13px!important;line-height:1.48!important}.emailCta{display:flex!important;width:430px!important;height:47px!important;margin-top:25px!important}
-  .benefits{font-size:7.5px!important;gap:17px!important;flex-direction:row!important}.desktopBenefit{display:inline!important}
-  .heroScene{width:100%!important;height:480px!important;margin:0!important;transform:none!important}
-  .screen{left:92px!important;top:13px!important;width:555px!important;height:405px!important;transform:rotate(1.6deg)!important;border-width:7px!important}
-  .screenTop{height:47px!important}.screenBody{height:350px!important;grid-template-columns:95px 1fr!important}.screenBody aside{font-size:6px!important}.cal h3{font-size:16px!important}.cal small,.calDays{font-size:5.7px!important}.calGrid{height:225px!important}
-  .mockPhone{display:block!important;left:0!important;top:105px!important;width:180px!important;height:365px!important;border-width:7px!important;border-radius:31px!important}
-  .phoneTop{height:52px!important;font-size:6px!important}.mockChat p{font-size:5.8px!important;padding:6px!important}.slots span,.slots b{font-size:5.5px!important;padding:5px!important}
-  .created{right:8px!important;bottom:40px!important;width:210px!important;padding:11px!important}.created>b{width:34px!important;height:34px!important}.created strong{font-size:7.2px!important}.created span{font-size:5.5px!important}
-  .noteLeft{display:block!important;left:155px!important;bottom:18px!important;font-size:11px!important}.noteRight{display:block!important;right:2px!important;bottom:-4px!important;font-size:11px!important}
-  .trusted{height:105px!important;max-width:1080px!important;padding:22px 20px!important}.trusted>p{font-size:6.5px!important}.trusted>div{display:flex!important;flex-wrap:nowrap!important;justify-content:space-between!important;font-size:8.5px!important;margin-top:20px!important}.trusted>div span:nth-child(n){display:inline!important}
-  .waSection{display:grid!important;min-height:275px!important;padding:36px 70px!important;grid-template-columns:36% 29% 29%!important;gap:3%!important}.waSection h2{font-size:27px!important}.waSection>div:first-child p{font-size:9.5px!important}.chatDemo p{font-size:6.2px!important}.aiList p{font-size:7px!important}
-  .dashSection{display:grid!important;height:305px!important;grid-template-columns:57% 43%!important;padding:0!important}.dashPreview{width:535px!important;height:278px!important;margin-left:35px!important;grid-template-columns:95px 1fr!important;transform:none!important}.dashCopy{padding:0 40px!important}.dashCopy h2{font-size:27px!important}.dashCopy p{font-size:9px!important}
-  .industries{padding:12px 30px 26px!important}.industries>div{grid-template-columns:repeat(8,1fr)!important;gap:8px!important}.industries span{height:62px!important;font-size:16px!important}.industries small{font-size:6px!important}
-}
-/* Never hide the approved Schedly mark on the homepage navbar. */
-.mockHome .nav>.brand{display:block!important;opacity:1!important;visibility:visible!important;overflow:visible!important}
-.mockHome .nav>.brand>.officialLogo{display:block!important;opacity:1!important;visibility:visible!important}
+
+/* Desktop fidelity lock. The supplied phone screenshot is a capture of the DESKTOP page,
+   so no mobile redesign or phone-specific composition is applied here. */
+.mockHome .nav>.brand,.mockHome .nav>.brand>.officialLogo{display:block!important;opacity:1!important;visibility:visible!important}
