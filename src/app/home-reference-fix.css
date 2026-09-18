@@ -274,3 +274,11 @@
 .mockHome .dashPreview{margin-top:0!important;border-radius:14px!important;overflow:hidden!important}.mockHome .dashCopy{padding-top:0!important}
 .mockHome .industries>p{font-size:7px!important;letter-spacing:1.5px!important}.mockHome .mobileFinal{border-radius:22px 22px 0 0!important}
 }
+/* HOME MOBILE — visual density pass */
+@media(max-width:650px){
+.mockHome .mockHeroGrid{padding-top:36px!important}.mockHome .mockCopy h1{font-size:44px!important;line-height:.91!important}.mockHome .mockCopy>p{font-size:12.5px!important;max-width:342px!important}.mockHome .emailCta{height:50px!important}.mockHome .heroScene{height:385px!important}.mockHome .screen{width:315px!important;height:235px!important;top:35px!important}.mockHome .mockPhone{width:112px!important;height:226px!important;top:103px!important}.mockHome .created{width:194px!important;min-height:62px!important;bottom:10px!important}
+.mockHome .mobileHow,.mockHome .mobileAction,.mockHome .waSection,.mockHome .dashSection{padding-top:58px!important;padding-bottom:58px!important}.mockHome .mobileHow h2,.mockHome .mobileAction h2,.mockHome .waSection h2,.mockHome .dashCopy h2{font-size:36px!important;line-height:.94!important}.mockHome .mobileHow>p,.mockHome .mobileAction>p,.mockHome .waSection>div:first-child>p,.mockHome .dashCopy p{font-size:12.5px!important}
+.mockHome .mobileFeature{min-height:84px!important}.mockHome .mobileFeature b{font-size:11.5px!important}.mockHome .mobileFeature p{font-size:9.5px!important}
+.mockHome .actionStep{min-height:72px!important}.mockHome .actionStep strong{font-size:10.5px!important}.mockHome .actionStep small{font-size:8.5px!important}
+.mockHome .chatDemo p{font-size:9.5px!important}.mockHome .aiList p{font-size:9.5px!important}.mockHome .dashPreview{height:270px!important}.mockHome .industries{padding-top:54px!important;padding-bottom:54px!important}.mockHome .mobileIndustryTitle{font-size:34px!important}.mockHome .industries>div span{min-height:115px!important}.mockHome .mobileFinal{padding-top:58px!important;padding-bottom:58px!important}.mockHome .mobileFinal h2{font-size:36px!important}
+}
