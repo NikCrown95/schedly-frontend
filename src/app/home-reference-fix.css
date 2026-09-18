@@ -317,3 +317,148 @@
 .mockHome .mobileFinal{padding:68px 22px!important;min-height:300px!important;display:flex!important;flex-direction:column!important;justify-content:center!important;background:linear-gradient(145deg,#071b49,#173fa0 60%,#7048ef)!important}.mockHome .mobileFinal h2{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important}.mockHome .mobileFinal p{font-size:12.5px!important;line-height:1.5!important;margin:17px auto 24px!important}.mockHome .mobileFinal .button{height:50px!important;border-radius:9px!important;font-size:10px!important}
 .mockHome .mobileFooter{padding:42px 22px 48px!important}.mockHome .mobileFooter .homeBrand{margin-bottom:24px!important}.mockHome .mobileFooter p,.mockHome .mobileFooter a{font-size:9px!important;line-height:1.6!important}.mockHome .mobileFooter nav{gap:16px!important;margin-top:18px!important}
 }
+
+/* Mobile dashboard fidelity: keep the desktop mockup intact and scale it as one unit. */
+@media(max-width:650px){
+  .mockHome .dashSection{display:flex!important;flex-direction:column!important;height:auto!important;overflow:hidden!important;padding:66px 0 72px!important;gap:38px!important}
+  .mockHome .dashSection>.dashPreview{order:1!important}
+  .mockHome .dashSection>.dashCopy{order:2!important}
+  .mockHome .dashPreview{
+    width:620px!important;max-width:none!important;height:322px!important;
+    grid-template-columns:112px 1fr!important;margin:0!important;
+    transform:scale(.558)!important;transform-origin:top center!important;
+    margin-bottom:-142px!important;border-radius:24px!important;
+    box-shadow:0 28px 70px rgba(10,30,70,.16)!important;overflow:hidden!important
+  }
+  .mockHome .dashPreview aside{padding:20px 14px!important;gap:13px!important;font-size:9px!important}
+  .mockHome .dashPreview aside b{font-size:11px!important;margin-bottom:7px!important}
+  .mockHome .dashBody{padding:0 18px 14px!important;overflow:hidden!important}
+  .mockHome .dashTop{height:68px!important;grid-template-columns:125px 1fr 145px!important;gap:10px!important}
+  .mockHome .dashTop>b{font-size:21px!important}
+  .mockHome .dashSearch{height:34px!important;font-size:9px!important;padding:9px 12px!important}
+  .mockHome .dashTop button{height:34px!important;font-size:9px!important;padding:7px 10px!important}
+  .mockHome .kpis{gap:9px!important;margin-top:10px!important}
+  .mockHome .kpis b{min-height:78px!important;padding:11px!important;font-size:8px!important;border-radius:12px!important}
+  .mockHome .kpis strong{font-size:25px!important;margin-top:7px!important}
+  .mockHome .kpis small{font-size:7px!important}
+  .mockHome .nextHead{margin:13px 0 7px!important}.mockHome .nextHead h4{font-size:12px!important}
+  .mockHome .dashRows p{grid-template-columns:18px 48px 1fr 1fr!important;min-height:29px!important;padding:5px 8px!important;font-size:8px!important}
+  .mockHome .dashRows i{width:14px!important;height:14px!important;font-size:5px!important}
+  .mockHome .dashCopy{padding:0 22px!important;width:100%!important;max-width:390px!important}
+  .mockHome .dashCopy h2{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important}
+  .mockHome .dashCopy p{font-size:13px!important;line-height:1.52!important}
+  .mockHome .dashCopy .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:190px!important}
+}
+
+
+/* HOME MOBILE — hero premium composition */
+@media(max-width:650px){
+  .mockHome .mockHero{background:linear-gradient(180deg,#f7fbff 0%,#fff 72%)!important}
+  .mockHome .nav{height:64px!important;padding:0 20px!important;background:rgba(255,255,255,.88)!important;backdrop-filter:blur(16px)!important;border-bottom:1px solid rgba(222,230,242,.72)!important;position:relative!important;z-index:1003!important}
+  .mockHome .mockHeroGrid{padding:42px 22px 0!important;text-align:left!important}
+  .mockHome .mockCopy{position:relative!important;z-index:5!important}
+  .mockHome .activePill{display:inline-flex!important;align-items:center!important;padding:7px 10px!important;border-radius:999px!important;background:#eaf5ff!important;color:#1478df!important;font-size:8px!important;font-weight:800!important;letter-spacing:.8px!important}
+  .mockHome .mockCopy h1{font-size:48px!important;line-height:.9!important;letter-spacing:-3.1px!important;max-width:350px!important;margin:20px 0 18px!important}
+  .mockHome .mockCopy>p{font-size:13.5px!important;line-height:1.52!important;max-width:344px!important;color:#69758a!important;margin:0!important}
+  .mockHome .emailCta{width:100%!important;max-width:346px!important;height:54px!important;margin:25px 0 0!important;padding:4px!important;border:1px solid #dce5f1!important;border-radius:12px!important;background:#fff!important;box-shadow:0 12px 30px rgba(20,54,105,.09)!important}
+  .mockHome .emailCta input{font-size:10px!important;padding-left:12px!important;min-width:0!important}
+  .mockHome .emailCta a{width:148px!important;height:44px!important;border-radius:9px!important;font-size:9.5px!important;display:flex!important;align-items:center!important;justify-content:center!important}
+  .mockHome .benefits{display:flex!important;flex-wrap:wrap!important;gap:8px 14px!important;margin-top:14px!important;font-size:8px!important;color:#758095!important}
+  .mockHome .heroScene{height:375px!important;margin:32px -22px 0!important;position:relative!important}
+  .mockHome .heroScene:before{content:""!important;position:absolute!important;inset:35px 15px 10px!important;background:radial-gradient(circle at 50% 45%,rgba(62,139,255,.15),rgba(111,71,238,.05) 45%,transparent 70%)!important;filter:blur(5px)!important}
+  .mockHome .screen{left:50%!important;top:16px!important;width:350px!important;height:266px!important;transform:translateX(-50%) rotate(-2.2deg)!important;border-radius:15px!important;border-width:5px!important;box-shadow:0 28px 60px rgba(15,35,75,.18)!important}
+  .mockHome .mockPhone{left:7px!important;top:112px!important;width:116px!important;height:232px!important;transform:rotate(5deg)!important;box-shadow:0 20px 42px rgba(15,35,75,.22)!important}
+  .mockHome .created{right:-3px!important;bottom:16px!important;width:190px!important;min-height:66px!important;border-radius:13px!important;box-shadow:0 18px 38px rgba(15,35,75,.17)!important}
+}
+@media(max-width:380px){
+  .mockHome .mockCopy h1{font-size:43px!important}
+  .mockHome .emailCta a{width:136px!important}
+  .mockHome .screen{width:330px!important}
+}
+
+
+/* HOME MOBILE — product section: clear feature storytelling */
+@media(max-width:650px){
+  .mockHome .mobileHow{padding:72px 22px 68px!important;background:linear-gradient(180deg,#f7faff 0%,#fbfdff 100%)!important}
+  .mockHome .mobileHow .tag{display:inline-flex!important;margin-bottom:14px!important}
+  .mockHome .mobileHow h2{font-size:41px!important;line-height:.92!important;letter-spacing:-2.35px!important;margin:0 0 18px!important;max-width:340px!important}
+  .mockHome .mobileHow h2 span{color:#1682ff!important}
+  .mockHome .mobileHow>p{font-size:13px!important;line-height:1.55!important;color:#6e7b90!important;max-width:330px!important;margin:0 auto 34px!important}
+  .mockHome .mobileFeature{position:relative!important;display:grid!important;grid-template-columns:52px 1fr!important;gap:16px!important;align-items:start!important;min-height:0!important;padding:20px!important;margin:0 auto 14px!important;border:1px solid #e4ebf5!important;border-radius:17px!important;background:#fff!important;box-shadow:0 12px 32px rgba(20,50,95,.055)!important}
+  .mockHome .mobileFeature>i{display:flex!important;align-items:center!important;justify-content:center!important;width:52px!important;height:52px!important;flex-basis:52px!important;margin:0!important;border-radius:13px!important;background:#eef6ff!important;color:#147dff!important;font-size:19px!important;font-style:normal!important}
+  .mockHome .mobileFeature:nth-of-type(2)>i{background:#f0edff!important;color:#7357e8!important}
+  .mockHome .mobileFeature:nth-of-type(3)>i{background:#ecfaf4!important;color:#20a56d!important}
+  .mockHome .mobileFeature b{display:block!important;font-size:13px!important;line-height:1.25!important;color:#142348!important;margin:1px 0 7px!important}
+  .mockHome .mobileFeature p{font-size:10.5px!important;line-height:1.55!important;color:#748096!important;margin:0!important}
+  .mockHome .mobileHow>a{display:inline-flex!important;align-items:center!important;justify-content:center!important;height:46px!important;margin:16px auto 0!important;padding:0 18px!important;border:1px solid #d9e7fa!important;border-radius:10px!important;background:#fff!important;color:#1379e8!important;font-size:10px!important;font-weight:800!important;text-decoration:none!important;box-shadow:0 8px 20px rgba(20,70,130,.05)!important}
+}
+
+
+/* HOME MOBILE — Schedly in action: connected booking flow */
+@media(max-width:650px){
+  .mockHome .mobileAction{padding:72px 22px 70px!important;background:#fff!important}
+  .mockHome .mobileAction .tag{display:inline-flex!important;margin-bottom:14px!important}
+  .mockHome .mobileAction h2{font-size:41px!important;line-height:.92!important;letter-spacing:-2.35px!important;margin:0 0 18px!important;max-width:340px!important}
+  .mockHome .mobileAction>p{font-size:13px!important;line-height:1.55!important;color:#6e7b90!important;max-width:330px!important;margin:0 auto 38px!important}
+  .mockHome .actionStep{position:relative!important;display:grid!important;grid-template-columns:26px 52px 1fr!important;gap:13px!important;align-items:center!important;min-height:88px!important;margin:0 auto!important;padding:10px 0!important}
+  .mockHome .actionStep:not(:last-of-type):after{content:""!important;position:absolute!important;left:38px!important;top:70px!important;width:2px!important;height:37px!important;background:linear-gradient(#cfe2ff,#e8eef8)!important}
+  .mockHome .actionStep>i{display:flex!important;align-items:center!important;justify-content:center!important;width:24px!important;height:24px!important;border-radius:50%!important;background:#eaf4ff!important;color:#147cff!important;font-size:9px!important;font-style:normal!important;font-weight:900!important}
+  .mockHome .actionStep>b{display:flex!important;align-items:center!important;justify-content:center!important;width:52px!important;height:52px!important;border-radius:14px!important;background:#f3f7ff!important;color:#197cff!important;font-size:18px!important;box-shadow:inset 0 0 0 1px #e3ebf8!important}
+  .mockHome .actionStep:nth-of-type(3)>b{background:#eef9ff!important;color:#1684d8!important}
+  .mockHome .actionStep:nth-of-type(4)>b{background:#ecfaf4!important;color:#1ba46b!important}
+  .mockHome .actionStep:nth-of-type(5)>b{background:#f1efff!important;color:#7058df!important}
+  .mockHome .actionStep strong{display:block!important;font-size:12.5px!important;line-height:1.3!important;color:#17264b!important}
+  .mockHome .actionStep small{display:block!important;font-size:10px!important;line-height:1.5!important;color:#788499!important;margin-top:5px!important}
+  .mockHome .actionNotice{display:grid!important;grid-template-columns:auto 1fr!important;align-items:center!important;gap:13px!important;margin:32px auto 0!important;padding:17px!important;border:1px solid #dce8f7!important;border-radius:15px!important;background:linear-gradient(135deg,#f8fbff,#fff)!important;box-shadow:0 15px 36px rgba(21,55,105,.09)!important}
+  .mockHome .actionNotice .homeBrand{transform:scale(.72)!important;transform-origin:left center!important;margin-right:-25px!important}
+  .mockHome .actionNotice small{font-size:9.5px!important;line-height:1.55!important;color:#66748b!important}
+  .mockHome .actionNote{position:relative!important;margin:17px auto 0!important;padding:14px 17px!important;border-radius:12px!important;background:#102657!important;color:#fff!important;text-align:center!important;font-size:10px!important;line-height:1.45!important;font-weight:700!important}
+}
+
+
+/* HOME MOBILE — AI conversation showcase */
+@media(max-width:650px){
+  .mockHome .waSection{display:flex!important;flex-direction:column!important;padding:72px 22px!important;background:linear-gradient(180deg,#eef7ff 0%,#f7fbff 100%)!important;gap:0!important}
+  .mockHome .waSection>div:first-child{order:1!important}
+  .mockHome .waSection .chatDemo{order:2!important}
+  .mockHome .waSection .aiList{order:3!important}
+  .mockHome .waSection h2{font-size:41px!important;line-height:.92!important;letter-spacing:-2.35px!important;margin:0 0 18px!important}
+  .mockHome .waSection>div:first-child>p{font-size:13px!important;line-height:1.55!important;color:#68778d!important}
+  .mockHome .waSection>div:first-child>a{display:inline-flex!important;margin-top:17px!important;font-size:10px!important}
+  .mockHome .chatDemo{position:relative!important;margin:34px auto 0!important;padding:54px 14px 16px!important;border:1px solid #dce6f2!important;border-radius:22px!important;background:#f2f5f1!important;box-shadow:0 22px 55px rgba(18,48,92,.13)!important;overflow:hidden!important}
+  .mockHome .chatDemo:before{content:"Schedly AI   •   online"!important;position:absolute!important;left:0!important;right:0!important;top:0!important;height:43px!important;display:flex!important;align-items:center!important;padding:0 16px 0 43px!important;background:#fff!important;border-bottom:1px solid #e5eaf0!important;color:#17264b!important;font-size:10px!important;font-weight:800!important}
+  .mockHome .chatDemo:after{content:"S"!important;position:absolute!important;left:14px!important;top:9px!important;width:26px!important;height:26px!important;display:flex!important;align-items:center!important;justify-content:center!important;border-radius:50%!important;background:#157cff!important;color:#fff!important;font-size:10px!important;font-weight:900!important}
+  .mockHome .chatDemo p{width:82%!important;margin:8px 0!important;padding:11px 13px!important;border-radius:12px 12px 12px 4px!important;background:#fff!important;color:#35445d!important;font-size:10.5px!important;line-height:1.5!important;box-shadow:0 2px 7px rgba(20,40,70,.06)!important}
+  .mockHome .chatDemo p:nth-child(even){margin-left:auto!important;border-radius:12px 12px 4px 12px!important;background:#dff7d5!important;color:#253b2d!important}
+  .mockHome .chatDemo p:last-child{border:1px solid rgba(21,124,255,.12)!important;background:#edf6ff!important;color:#24517c!important}
+  .mockHome .aiList{margin:18px auto 0!important;padding:19px 20px!important;border:1px solid #e1e9f4!important;border-radius:17px!important;background:#fff!important;box-shadow:0 12px 30px rgba(20,50,95,.06)!important}
+  .mockHome .aiList p{position:relative!important;margin:0!important;padding:12px 0 12px 25px!important;border-bottom:1px solid #edf1f6!important;font-size:10.5px!important;line-height:1.45!important;color:#526078!important}
+  .mockHome .aiList p:last-child{border-bottom:0!important}
+  .mockHome .aiList p:before{content:"✓"!important;position:absolute!important;left:0!important;top:11px!important;width:17px!important;height:17px!important;display:flex!important;align-items:center!important;justify-content:center!important;border-radius:50%!important;background:#e9f8f0!important;color:#15945d!important;font-size:8px!important;font-weight:900!important}
+}
+
+
+/* HOME MOBILE — industries grid + conversion finale */
+@media(max-width:650px){
+  .mockHome .industries{padding:72px 22px 76px!important;background:#fbfcff!important}
+  .mockHome .industries>p{font-size:8px!important;letter-spacing:1.8px!important;font-weight:900!important;color:#1780ef!important}
+  .mockHome .mobileIndustryTitle{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important;max-width:340px!important;margin:13px auto 32px!important}
+  .mockHome .industries>div{display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px!important}
+  .mockHome .industries>div span{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:space-between!important;min-height:126px!important;padding:20px!important;border:1px solid #e3eaf4!important;border-radius:17px!important;background:#fff!important;font-size:26px!important;box-shadow:0 10px 28px rgba(18,45,85,.055)!important}
+  .mockHome .industries>div span:nth-child(2n){background:linear-gradient(145deg,#fff,#f7f5ff)!important}
+  .mockHome .industries>div span:nth-child(3n){background:linear-gradient(145deg,#fff,#f3faff)!important}
+  .mockHome .industries small{font-size:10.5px!important;line-height:1.35!important;font-weight:800!important;color:#273654!important;text-align:left!important;margin-top:14px!important}
+  .mockHome .mobileFinal{position:relative!important;overflow:hidden!important;padding:76px 22px 72px!important;min-height:390px!important;border-radius:28px 28px 0 0!important;background:linear-gradient(145deg,#071b49 0%,#123b98 58%,#6747e8 100%)!important;text-align:center!important}
+  .mockHome .mobileFinal:before{content:""!important;position:absolute!important;width:250px!important;height:250px!important;right:-120px!important;top:-105px!important;border-radius:50%!important;background:rgba(255,255,255,.08)!important;filter:blur(2px)!important}
+  .mockHome .mobileFinal:after{content:""!important;position:absolute!important;width:210px!important;height:210px!important;left:-130px!important;bottom:-105px!important;border-radius:50%!important;background:rgba(70,164,255,.13)!important}
+  .mockHome .mobileFinal>*{position:relative!important;z-index:1!important}
+  .mockHome .mobileFinal>b{font-size:8px!important;letter-spacing:1.7px!important;color:#9ec9ff!important}
+  .mockHome .mobileFinal h2{font-size:42px!important;line-height:.91!important;letter-spacing:-2.5px!important;margin:16px auto 18px!important;max-width:350px!important}
+  .mockHome .mobileFinal p{font-size:13px!important;line-height:1.55!important;max-width:325px!important;color:#d7e2f7!important;margin:0 auto 26px!important}
+  .mockHome .mobileFinal .button{width:100%!important;max-width:346px!important;height:54px!important;border-radius:11px!important;background:#fff!important;color:#174fba!important;font-size:10.5px!important;font-weight:900!important;box-shadow:0 16px 34px rgba(3,15,45,.22)!important}
+  .mockHome .mobileFinal small{display:block!important;margin-top:14px!important;font-size:8.5px!important;color:#b9c9e5!important}
+  .mockHome .mobileFooter{padding:42px 22px 48px!important;background:#061633!important;color:#c7d3e8!important}
+  .mockHome .mobileFooter p{color:#9fb0cb!important}.mockHome .mobileFooter a{color:#dce6f6!important}
+  .mockHome .mobileFooter nav{display:flex!important;flex-wrap:wrap!important;gap:12px 20px!important;margin-top:22px!important}
+  .mockHome .mobileFooter>small{display:block!important;margin-top:28px!important;padding-top:20px!important;border-top:1px solid rgba(255,255,255,.1)!important;color:#7284a2!important}
+}
