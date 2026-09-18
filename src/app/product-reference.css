@@ -37,3 +37,14 @@
 @media(min-width:851px) and (max-width:1023px){
 .productRef{width:1024px;min-width:1024px;overflow:visible}.productRef .siteNav{width:1024px;max-width:none}.pHero{width:1024px;max-width:none}.pFeature{width:1024px}.pFinal{width:1024px}.productRef .siteNav{padding-left:55px;padding-right:55px}.pHero{padding-left:62px;padding-right:62px}.pFeatureCopy{padding-left:62px}.pFinal{padding-left:62px;padding-right:62px}
 }
+
+/* Product reference image recreated 2026-09 — exact composition pass */
+@media(min-width:1024px){
+.productRef .siteNav{max-width:1024px;height:58px;padding:0 40px}.productRef .siteNav .brand{font-size:20px}.productRef .siteNav nav{gap:38px}
+.pHero{height:525px;padding:62px 40px 0;background:radial-gradient(circle at 68% 22%,rgba(232,225,255,.72),transparent 34%),radial-gradient(circle at 23% 62%,rgba(218,249,255,.78),transparent 38%)}.pHeroCopy h1{font-size:48px;line-height:.9;margin:15px 0 16px}.pHeroCopy>p:not(.eyebrow){font-size:13px;line-height:1.5}.pHeroCopy .button{margin-top:3px}.pScribbleTop{right:170px;top:24px;font-size:13px}
+.pSystem{left:40px;right:34px;height:330px}.pCalendar{left:370px;top:6px;width:405px;height:305px}.pClient{left:170px;bottom:0;width:190px}.pOnline{right:0;bottom:-7px;width:168px}.pAgenda{left:445px;bottom:-20px}.pOnlineLabel{transform:translateY(-5px)}
+.pFeature{height:252px;grid-template-columns:50% 50%}.pFeatureCopy{grid-template-columns:48px 1fr;padding:40px 0 20px max(40px,calc((100vw - 1024px)/2 + 40px))}.pFeature h2{font-size:27px;letter-spacing:-1.6px}.pFeatureCopy p{font-size:10.5px}.pPhone{left:75px;top:-18px;width:205px;height:315px}.pFeatureVisual>.pScribble{right:55px;top:38px;font-size:12px}.pFloatIcon{right:63px;top:142px}
+.pBookingCalendar{left:-5px;top:10px;width:400px;height:225px;padding:20px}.pFeature2 .pFeatureVisual>.pScribble{right:35px;top:35px}.pFeature2 .pFloatIcon{right:47px;top:145px}
+.pDash{left:-80px;top:8px;width:525px;height:235px}.pFeature3 .pFeatureVisual>.pScribble{right:25px;top:30px}.pFeature3 .pFloatIcon{right:42px;top:142px}
+.pFinal{min-height:172px;padding:42px max(64px,calc((100vw - 1024px)/2 + 64px))}.pFinal h2{font-size:30px}.pFinal .light{min-width:210px}
+}
