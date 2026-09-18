@@ -301,3 +301,13 @@
 .mockHome .industries>div{max-width:346px!important}.mockHome .mobileFinal .button{width:100%!important}
 .mockHome .mobileFooter{width:100%!important;max-width:none!important}.mockHome .mobileFooter>*{max-width:346px!important;margin-left:auto!important;margin-right:auto!important}
 }
+/* HOME MOBILE — section-by-section visual scale pass */
+@media(max-width:650px){
+.mockHome .mobileHow,.mockHome .mobileAction,.mockHome .waSection,.mockHome .dashSection{padding-top:66px!important;padding-bottom:66px!important}
+.mockHome .mobileHow h2,.mockHome .mobileAction h2,.mockHome .waSection h2,.mockHome .dashCopy h2{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important}
+.mockHome .mobileHow>p,.mockHome .mobileAction>p,.mockHome .waSection>div:first-child>p,.mockHome .dashCopy p{font-size:13px!important;line-height:1.52!important}
+.mockHome .mobileFeature{min-height:94px!important;padding:22px 0!important;gap:16px!important}.mockHome .mobileFeature>i{width:46px!important;height:46px!important;flex-basis:46px!important}.mockHome .mobileFeature b{font-size:12.5px!important}.mockHome .mobileFeature p{font-size:10px!important;line-height:1.5!important}
+.mockHome .actionStep{min-height:88px!important;grid-template-columns:22px 46px 1fr!important;gap:12px!important}.mockHome .actionStep>b{width:46px!important;height:46px!important}.mockHome .actionStep strong{font-size:12px!important}.mockHome .actionStep small{font-size:9.5px!important;line-height:1.5!important}.mockHome .actionNotice{padding:18px!important;margin-top:30px!important}
+.mockHome .chatDemo{padding:22px!important;border-radius:17px!important}.mockHome .chatDemo p{font-size:10.5px!important;padding:13px!important}.mockHome .aiList{padding:22px!important}.mockHome .aiList p{font-size:10.5px!important;margin:15px 0!important}
+.mockHome .dashPreview{height:292px!important;grid-template-columns:86px 1fr!important;border-radius:16px!important}.mockHome .dashCopy .button{height:49px!important;font-size:10px!important;margin-top:4px!important}
+}
