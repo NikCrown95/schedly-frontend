@@ -26,3 +26,15 @@
 @media(max-width:430px){
 .demoApproved .demoGrid{padding-left:18px;padding-right:18px}.demoApproved .demoCopy h1{font-size:36px}.demoApproved .demoForm{margin-left:-2px;margin-right:-2px}.demoApproved .after{padding-left:18px;padding-right:18px}
 }
+
+/* DEMO — desktop render refinement from production comparison */
+@media(min-width:801px){
+.demoApproved .siteNav{height:66px;padding:0 34px;max-width:1024px}
+.demoApproved .siteNav .brand{display:flex!important;width:auto!important;height:auto!important;min-width:150px!important;align-items:center!important;gap:9px!important;overflow:visible!important}
+.demoApproved .siteNav .brand>*{display:inline-flex!important}.demoApproved .siteNav .brandMark{width:31px!important;height:31px!important;flex:0 0 31px!important}.demoApproved .siteNav .brand>span:last-child{font-size:22px!important;font-weight:800!important;color:#0b183b!important}
+.demoApproved .demoGrid{max-width:1024px;padding:56px 42px 48px;grid-template-columns:47% 53%;gap:52px;min-height:650px}
+.demoApproved .demoCopy{padding-top:24px}.demoApproved .demoCopy h1{font-size:50px;max-width:440px}.demoApproved .demoCopy>p{max-width:430px}
+.demoApproved .demoTrust{margin-top:27px}.demoApproved .demoForm{padding:27px 30px 23px;border-radius:18px;transform:translateY(-4px)}
+.demoApproved .demoForm label{margin-bottom:11px}.demoApproved .demoForm input,.demoApproved .demoForm select{height:40px}.demoApproved .demoForm textarea{min-height:70px}
+.demoApproved .after{max-width:1024px;padding:44px 42px 72px}.demoApproved .after>h2{margin-bottom:25px}.demoApproved .after article{padding:22px}
+}
