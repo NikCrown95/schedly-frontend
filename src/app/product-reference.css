@@ -30,3 +30,10 @@
 .pFeatureCopy{align-items:start}.pFeatureCopy .pNum{line-height:1.4}.pFeatureCopy p{max-width:365px}.pFeature1 .pFeatureVisual{background:radial-gradient(circle at 35% 48%,rgba(227,249,240,.65),transparent 38%)}.pFeature2 .pFeatureVisual{background:radial-gradient(circle at 35% 48%,rgba(235,241,255,.75),transparent 40%)}.pFeature3 .pFeatureVisual{background:radial-gradient(circle at 36% 48%,rgba(232,247,255,.72),transparent 40%)}.pFeature2 .pBookingCalendar{transform:rotate(1deg)}.pFeature3 .pDash{transform:rotate(-.6deg)}
 .pFinal p{margin:0}.pFinal h2{letter-spacing:-1.7px;margin:8px 0 0}.pFinal small{text-align:center}
 }
+
+/* Desktop mode on narrow physical screens: preserve the approved 1024px composition.
+   Mobile browsers requesting "desktop site" otherwise trigger an intermediate 851–1023 layout
+   and compress the reference geometry. */
+@media(min-width:851px) and (max-width:1023px){
+.productRef{width:1024px;min-width:1024px;overflow:visible}.productRef .siteNav{width:1024px;max-width:none}.pHero{width:1024px;max-width:none}.pFeature{width:1024px}.pFinal{width:1024px}.productRef .siteNav{padding-left:55px;padding-right:55px}.pHero{padding-left:62px;padding-right:62px}.pFeatureCopy{padding-left:62px}.pFinal{padding-left:62px;padding-right:62px}
+}
