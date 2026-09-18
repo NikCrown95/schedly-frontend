@@ -436,3 +436,29 @@
   .mockHome .aiList p:last-child{border-bottom:0!important}
   .mockHome .aiList p:before{content:"✓"!important;position:absolute!important;left:0!important;top:11px!important;width:17px!important;height:17px!important;display:flex!important;align-items:center!important;justify-content:center!important;border-radius:50%!important;background:#e9f8f0!important;color:#15945d!important;font-size:8px!important;font-weight:900!important}
 }
+
+
+/* HOME MOBILE — industries grid + conversion finale */
+@media(max-width:650px){
+  .mockHome .industries{padding:72px 22px 76px!important;background:#fbfcff!important}
+  .mockHome .industries>p{font-size:8px!important;letter-spacing:1.8px!important;font-weight:900!important;color:#1780ef!important}
+  .mockHome .mobileIndustryTitle{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important;max-width:340px!important;margin:13px auto 32px!important}
+  .mockHome .industries>div{display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px!important}
+  .mockHome .industries>div span{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:space-between!important;min-height:126px!important;padding:20px!important;border:1px solid #e3eaf4!important;border-radius:17px!important;background:#fff!important;font-size:26px!important;box-shadow:0 10px 28px rgba(18,45,85,.055)!important}
+  .mockHome .industries>div span:nth-child(2n){background:linear-gradient(145deg,#fff,#f7f5ff)!important}
+  .mockHome .industries>div span:nth-child(3n){background:linear-gradient(145deg,#fff,#f3faff)!important}
+  .mockHome .industries small{font-size:10.5px!important;line-height:1.35!important;font-weight:800!important;color:#273654!important;text-align:left!important;margin-top:14px!important}
+  .mockHome .mobileFinal{position:relative!important;overflow:hidden!important;padding:76px 22px 72px!important;min-height:390px!important;border-radius:28px 28px 0 0!important;background:linear-gradient(145deg,#071b49 0%,#123b98 58%,#6747e8 100%)!important;text-align:center!important}
+  .mockHome .mobileFinal:before{content:""!important;position:absolute!important;width:250px!important;height:250px!important;right:-120px!important;top:-105px!important;border-radius:50%!important;background:rgba(255,255,255,.08)!important;filter:blur(2px)!important}
+  .mockHome .mobileFinal:after{content:""!important;position:absolute!important;width:210px!important;height:210px!important;left:-130px!important;bottom:-105px!important;border-radius:50%!important;background:rgba(70,164,255,.13)!important}
+  .mockHome .mobileFinal>*{position:relative!important;z-index:1!important}
+  .mockHome .mobileFinal>b{font-size:8px!important;letter-spacing:1.7px!important;color:#9ec9ff!important}
+  .mockHome .mobileFinal h2{font-size:42px!important;line-height:.91!important;letter-spacing:-2.5px!important;margin:16px auto 18px!important;max-width:350px!important}
+  .mockHome .mobileFinal p{font-size:13px!important;line-height:1.55!important;max-width:325px!important;color:#d7e2f7!important;margin:0 auto 26px!important}
+  .mockHome .mobileFinal .button{width:100%!important;max-width:346px!important;height:54px!important;border-radius:11px!important;background:#fff!important;color:#174fba!important;font-size:10.5px!important;font-weight:900!important;box-shadow:0 16px 34px rgba(3,15,45,.22)!important}
+  .mockHome .mobileFinal small{display:block!important;margin-top:14px!important;font-size:8.5px!important;color:#b9c9e5!important}
+  .mockHome .mobileFooter{padding:42px 22px 48px!important;background:#061633!important;color:#c7d3e8!important}
+  .mockHome .mobileFooter p{color:#9fb0cb!important}.mockHome .mobileFooter a{color:#dce6f6!important}
+  .mockHome .mobileFooter nav{display:flex!important;flex-wrap:wrap!important;gap:12px 20px!important;margin-top:22px!important}
+  .mockHome .mobileFooter>small{display:block!important;margin-top:28px!important;padding-top:20px!important;border-top:1px solid rgba(255,255,255,.1)!important;color:#7284a2!important}
+}
