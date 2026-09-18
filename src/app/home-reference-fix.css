@@ -392,3 +392,25 @@
   .mockHome .mobileFeature p{font-size:10.5px!important;line-height:1.55!important;color:#748096!important;margin:0!important}
   .mockHome .mobileHow>a{display:inline-flex!important;align-items:center!important;justify-content:center!important;height:46px!important;margin:16px auto 0!important;padding:0 18px!important;border:1px solid #d9e7fa!important;border-radius:10px!important;background:#fff!important;color:#1379e8!important;font-size:10px!important;font-weight:800!important;text-decoration:none!important;box-shadow:0 8px 20px rgba(20,70,130,.05)!important}
 }
+
+
+/* HOME MOBILE — Schedly in action: connected booking flow */
+@media(max-width:650px){
+  .mockHome .mobileAction{padding:72px 22px 70px!important;background:#fff!important}
+  .mockHome .mobileAction .tag{display:inline-flex!important;margin-bottom:14px!important}
+  .mockHome .mobileAction h2{font-size:41px!important;line-height:.92!important;letter-spacing:-2.35px!important;margin:0 0 18px!important;max-width:340px!important}
+  .mockHome .mobileAction>p{font-size:13px!important;line-height:1.55!important;color:#6e7b90!important;max-width:330px!important;margin:0 auto 38px!important}
+  .mockHome .actionStep{position:relative!important;display:grid!important;grid-template-columns:26px 52px 1fr!important;gap:13px!important;align-items:center!important;min-height:88px!important;margin:0 auto!important;padding:10px 0!important}
+  .mockHome .actionStep:not(:last-of-type):after{content:""!important;position:absolute!important;left:38px!important;top:70px!important;width:2px!important;height:37px!important;background:linear-gradient(#cfe2ff,#e8eef8)!important}
+  .mockHome .actionStep>i{display:flex!important;align-items:center!important;justify-content:center!important;width:24px!important;height:24px!important;border-radius:50%!important;background:#eaf4ff!important;color:#147cff!important;font-size:9px!important;font-style:normal!important;font-weight:900!important}
+  .mockHome .actionStep>b{display:flex!important;align-items:center!important;justify-content:center!important;width:52px!important;height:52px!important;border-radius:14px!important;background:#f3f7ff!important;color:#197cff!important;font-size:18px!important;box-shadow:inset 0 0 0 1px #e3ebf8!important}
+  .mockHome .actionStep:nth-of-type(3)>b{background:#eef9ff!important;color:#1684d8!important}
+  .mockHome .actionStep:nth-of-type(4)>b{background:#ecfaf4!important;color:#1ba46b!important}
+  .mockHome .actionStep:nth-of-type(5)>b{background:#f1efff!important;color:#7058df!important}
+  .mockHome .actionStep strong{display:block!important;font-size:12.5px!important;line-height:1.3!important;color:#17264b!important}
+  .mockHome .actionStep small{display:block!important;font-size:10px!important;line-height:1.5!important;color:#788499!important;margin-top:5px!important}
+  .mockHome .actionNotice{display:grid!important;grid-template-columns:auto 1fr!important;align-items:center!important;gap:13px!important;margin:32px auto 0!important;padding:17px!important;border:1px solid #dce8f7!important;border-radius:15px!important;background:linear-gradient(135deg,#f8fbff,#fff)!important;box-shadow:0 15px 36px rgba(21,55,105,.09)!important}
+  .mockHome .actionNotice .homeBrand{transform:scale(.72)!important;transform-origin:left center!important;margin-right:-25px!important}
+  .mockHome .actionNotice small{font-size:9.5px!important;line-height:1.55!important;color:#66748b!important}
+  .mockHome .actionNote{position:relative!important;margin:17px auto 0!important;padding:14px 17px!important;border-radius:12px!important;background:#102657!important;color:#fff!important;text-align:center!important;font-size:10px!important;line-height:1.45!important;font-weight:700!important}
+}
