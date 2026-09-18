@@ -224,3 +224,15 @@
 .mockHome .heroScene{height:350px!important;margin-top:12px!important}.mockHome .screen{top:39px!important;left:57%!important;width:300px!important;height:222px!important;border-width:5px!important}.mockHome .screenTop{height:29px!important;padding:0 7px!important}.mockHome .screenBody{height:187px!important;grid-template-columns:55px 1fr!important}.mockHome .cal{padding:8px!important}.mockHome .cal h3{font-size:11px!important}.mockHome .calGrid{height:120px!important}.mockHome .mockPhone{left:1px!important;top:98px!important;width:108px!important;height:218px!important}.mockHome .created{right:1px!important;bottom:14px!important;width:184px!important;min-height:57px!important;padding:9px 10px!important;border-radius:10px!important}.mockHome .created>b{width:31px!important;height:31px!important}.mockHome .created strong{font-size:7.5px!important}.mockHome .created span{font-size:5.8px!important}
 .mockHome .trusted{padding-top:20px!important}.mockHome .mobileBenefits{margin-top:0!important}
 }
+/* HOME MOBILE — controlled stable-layout correction */
+@media(max-width:650px){
+.mockHome .mobileBenefits{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;height:72px!important;margin:0!important;z-index:2!important}
+.mockHome .mockHero{height:auto!important;min-height:0!important;overflow:visible!important}
+.mockHome .mockHeroGrid{height:auto!important;min-height:0!important;padding-bottom:24px!important}
+.mockHome .heroScene{height:355px!important;margin-top:14px!important;overflow:visible!important}
+.mockHome .screen{top:42px!important;left:57%!important;width:292px!important;height:216px!important}
+.mockHome .mockPhone{left:0!important;top:105px!important;width:106px!important;height:214px!important}
+.mockHome .created{right:0!important;bottom:12px!important;width:184px!important}
+.mockHome .trusted{display:block!important;height:74px!important;padding:24px 18px!important}.mockHome .trusted>div{display:none!important}.mockHome .trusted>p{margin:0!important;text-align:center!important}
+.mockHome .mobileHow,.mockHome .mobileAction,.mockHome .waSection,.mockHome .dashSection,.mockHome .industries,.mockHome .mobileFinal,.mockHome .mobileFooter{display:block!important}
+}
