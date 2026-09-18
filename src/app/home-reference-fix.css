@@ -158,3 +158,30 @@
 /* Desktop fidelity lock. The supplied phone screenshot is a capture of the DESKTOP page,
    so no mobile redesign or phone-specific composition is applied here. */
 .mockHome .nav>.brand,.mockHome .nav>.brand>.officialLogo{display:block!important;opacity:1!important;visibility:visible!important}
+
+/* Desktop mockup calibration — 1474px capture compared against approved reference. */
+@media(min-width:1101px){
+ .mockHero{height:875px!important}
+ .nav{height:96px!important;max-width:1474px!important;padding:0 66px!important}
+ .nav>.brand{width:196px!important;min-width:196px!important;height:76px!important}.nav>.brand>.officialLogo{width:196px!important;min-width:196px!important}
+ .navLinks,.navActions{font-size:12px!important}.navLinks{gap:48px!important}.navActions{gap:45px!important}.buttonSmall{padding:14px 25px!important}
+ .mockHeroGrid{max-width:1474px!important;height:750px!important;padding:70px 66px 0!important;grid-template-columns:42% 58%!important}
+ .mockCopy{padding-top:0!important}.activePill{font-size:11px!important;padding:8px 14px!important}
+ .mockCopy h1{font-size:64px!important;line-height:.96!important;letter-spacing:-4.4px!important;margin:30px 0 25px!important;max-width:600px!important}
+ .mockCopy>p{font-size:17px!important;line-height:1.5!important;max-width:580px!important}
+ .emailCta{width:535px!important;height:60px!important;margin-top:34px!important;border-radius:12px!important}.emailCta input{font-size:13px!important}.emailCta a{width:220px!important;font-size:13px!important}
+ .benefits{font-size:10px!important;gap:23px!important;margin-top:19px!important}
+ .heroScene{height:670px!important}
+ .screen{left:155px!important;top:35px!important;width:710px!important;height:525px!important;border-width:9px!important;border-radius:21px 21px 9px 9px!important;transform:rotate(1.7deg)!important}
+ .screenTop{height:61px!important;grid-template-columns:100px minmax(0,1fr) auto!important;padding:0 15px!important}.productBrand strong{font-size:11px!important}.productBrandCrop{width:23px!important;height:23px!important}.screenTop input,.screenTop button{font-size:8px!important}
+ .screenBody{height:455px!important;grid-template-columns:124px 1fr!important}.screenBody aside{font-size:8px!important;line-height:2.75!important;padding:17px 13px!important}
+ .cal{padding:20px!important}.cal h3{font-size:22px!important}.cal small,.calDays{font-size:7.5px!important}.calDays{margin:19px 0 9px!important}.calGrid{height:300px!important}
+ .mockPhone{left:35px!important;top:170px!important;width:225px!important;height:455px!important;border-width:8px!important;border-radius:39px!important}
+ .phoneTop{height:64px!important;font-size:7.5px!important;padding-top:24px!important}.mockChat{padding:12px 10px!important;gap:7px!important}.mockChat p{font-size:7.3px!important;padding:8px!important}.slots span,.slots b{font-size:7px!important;padding:7px!important}.phoneInput{font-size:6.5px!important;padding:10px!important}
+ .created{right:5px!important;bottom:62px!important;width:270px!important;min-height:82px!important;padding:15px 17px!important}.created>b{width:47px!important;height:47px!important}.created strong{font-size:10.5px!important}.created span{font-size:7.5px!important}
+ .noteLeft{left:115px!important;bottom:58px!important;font-size:15px!important}.noteRight{right:0!important;bottom:8px!important;font-size:14px!important}
+ .trusted{height:145px!important;max-width:1370px!important;padding:32px 55px!important}.trusted>p{font-size:8.5px!important}.trusted>div{font-size:12px!important;margin-top:28px!important}
+ .waSection{min-height:350px!important;padding:52px max(68px,calc((100vw - 1340px)/2))!important;grid-template-columns:36% 30% 28%!important;gap:3%!important}.waSection h2{font-size:38px!important}.waSection>div:first-child p{font-size:13px!important}.waSection>div:first-child a{font-size:12px!important}.chatDemo p{font-size:8.5px!important;padding:9px!important}.aiList{padding:18px 24px!important}.aiList p{font-size:10px!important;padding:8px 2px!important}
+ .dashSection{height:420px!important;grid-template-columns:58% 42%!important}.dashPreview{width:720px!important;height:385px!important;margin-left:max(38px,calc((100vw - 1474px)/2 + 38px))!important;grid-template-columns:125px 1fr!important}.dashPreview aside{font-size:7.5px!important;gap:9px!important;padding:18px 13px!important}.dashPreview aside b{font-size:8px!important}.dashBody{padding:0 18px 13px!important}.dashTop{height:59px!important;grid-template-columns:105px 1fr 110px!important}.dashTop>b{font-size:16px!important}.dashSearch,.dashTop button{height:28px!important;font-size:6px!important}.kpis b{font-size:6px!important;padding:9px!important}.kpis strong{font-size:17px!important}.nextHead h4{font-size:9px!important}.dashRows p{font-size:6px!important;min-height:24px!important;grid-template-columns:16px 40px 1fr 1fr!important}.dashCopy{padding:0 55px!important}.dashCopy h2{font-size:37px!important}.dashCopy p{font-size:12.5px!important}.dashCopy .button{font-size:10px!important;padding:13px 20px!important}
+ .industries{padding:16px 40px 34px!important}.industries>p{font-size:8px!important}.industries>div{max-width:1350px!important;gap:10px!important;margin-top:15px!important}.industries span{height:80px!important;font-size:20px!important}.industries small{font-size:8px!important}
+}
