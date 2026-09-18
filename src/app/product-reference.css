@@ -4,7 +4,7 @@
 
 /* Approved product mockup — desktop fidelity pass */
 @media(min-width:851px){
-.productRef .siteNav{max-width:1024px;height:62px;padding:0 55px}.productRef .siteNav .brand{display:flex;align-items:center;gap:9px;width:145px;height:52px;flex:0 0 145px;font-size:22px;line-height:1;font-weight:800}.productRef .siteNav nav{gap:35px;font-size:10px}.productRef .siteNav>div{gap:26px;font-size:10px}.productRef .siteNav .buttonSmall{height:36px;padding:0 20px;font-size:9px;border-radius:8px}
+.productRef .siteNav{max-width:1024px;height:62px;padding:0 55px}.productRef .siteNav .brand{display:flex!important;align-items:center;gap:9px;width:145px;height:52px;flex:0 0 145px;font-size:22px!important;line-height:1!important;font-weight:800}.productRef .siteNav .brand>span:last-child{display:inline-block!important;font-size:22px!important;line-height:1!important;color:#071331!important}.productRef .siteNav nav{gap:35px;font-size:10px}.productRef .siteNav>div{gap:26px;font-size:10px}.productRef .siteNav .buttonSmall{height:36px;padding:0 20px;font-size:9px;border-radius:8px}
 .pHero{max-width:1024px;height:545px;padding:46px 62px 0;background:radial-gradient(circle at 78% 20%,#eee8ff 0,transparent 31%),radial-gradient(circle at 30% 65%,#e5faff 0,transparent 36%)}.pHeroCopy h1{font-size:49px;line-height:.92;letter-spacing:-3.2px;margin:12px 0 16px}.pHeroCopy>p:not(.eyebrow){font-size:13px;line-height:1.42}.pHeroCopy .button{height:40px;padding:0 23px;font-size:10px;border-radius:8px}.pScribbleTop{right:115px;top:42px;font-size:11px}
 .pSystem{left:55px;right:55px;height:325px}.pCalendar{left:245px;top:18px;width:455px;height:292px;grid-template-columns:78px 1fr}.pClient{width:180px;bottom:6px}.pOnline{width:182px;bottom:6px}.pAgenda{left:370px;bottom:-24px}.pGrid{height:174px;background-size:auto}.pSide{gap:11px}
 .pFeature{height:305px;grid-template-columns:50% 50%}.pFeatureCopy{grid-template-columns:48px 1fr;padding:48px 0 25px max(55px,calc((100vw - 1024px)/2 + 8px))}.pFeature h2{font-size:29px}.pFeatureCopy p{font-size:11px;line-height:1.48}.pFeatureVisual>.pScribble{font-size:11px}.pPhone{left:72px;top:-18px;width:190px;height:320px}.pFeatureVisual>.pScribble{right:72px;top:48px}.pFloatIcon{right:82px;top:145px}.pBookingCalendar{left:20px;top:30px;width:335px;height:210px}.pFeature2 .pFeatureVisual>.pScribble{right:42px;top:38px}.pFeature2 .pFloatIcon{right:60px;top:148px}.pDash{left:-30px;top:25px;width:475px;height:255px}.pFeature3 .pFeatureVisual>.pScribble{right:38px;top:40px}.pFeature3 .pFloatIcon{right:50px;top:145px}
@@ -44,4 +44,12 @@
 }
 @media(min-width:851px) and (max-width:1050px){
 .productRef .siteNav{padding-left:32px;padding-right:32px}.pHero{padding-left:32px;padding-right:32px}.pHeroCopy h1{font-size:50px}.pSystem{left:32px;right:32px}.pCalendar{left:25%;width:54%}.pClient{width:22%}.pOnline{width:20%}.pFeatureCopy{padding-left:32px}.pFeature h2{font-size:27px}.pPhone{left:12%}.pBookingCalendar{left:1%;width:365px}.pDash{left:-12%;width:500px}.pFinal{padding-left:40px;padding-right:40px}
+}
+
+/* Phone browser "desktop site" can report a 980px CSS viewport. Keep the desktop
+   composition fluid at that viewport instead of forcing/zooming a 1024px canvas. */
+@media(min-width:851px) and (max-width:1023px){
+.productRef .siteNav{max-width:980px;padding:0 28px}.productRef .siteNav .brand{width:138px;flex-basis:138px}.productRef .siteNav .brand>span:last-child{font-size:21px!important}
+.pHero{max-width:980px;height:600px;padding:54px 30px 0}.pHeroCopy h1{font-size:52px}.pSystem{left:30px;right:30px;height:360px}.pCalendar{left:25%;width:54%;height:320px}.pClient{width:21.5%}.pOnline{width:20.5%}.pAgenda{left:42%}
+.pFeature{height:320px;grid-template-columns:48% 52%}.pFeatureCopy{padding:50px 15px 25px 30px}.pFeature h2{font-size:29px}.pPhone{left:14%;width:205px;height:340px}.pBookingCalendar{left:2%;width:375px}.pDash{left:-10%;width:510px}.pFinal{padding:42px 38px}
 }
