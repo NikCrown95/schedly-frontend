@@ -72,3 +72,25 @@
 @media(min-width:410px) and (max-width:430px){
  .mobileMock h1{max-width:360px}.mHomePage h1{font-size:40px}.mProductPage h1,.mHowPage h1,.mPricingPage h1,.mDemoPage h1,.mFaqPage h1{font-size:36px}
 }
+
+/* UI audit fixes: touch targets, menu state, overflow, interaction feedback */
+@media(max-width:768px){
+ .mobileMock{width:100%;max-width:100%;overflow-x:clip}
+ .mHeader{position:relative;z-index:60}
+ .mobileMock .mobileMenuButton{min-width:44px!important;min-height:44px!important;margin-right:-7px!important;touch-action:manipulation}
+ .mobileMock .mobileMenuButton:focus-visible,.mBtn:focus-visible,.mGoogle:focus-visible,.mEye:focus-visible,.mFaq summary:focus-visible{outline:3px solid rgba(22,130,248,.28);outline-offset:3px}
+ .mobileMenuPanel nav a.isCurrent{color:#147cff}
+ .mobileMenuPanel nav a.isCurrent:before{content:"";width:6px;height:6px;border-radius:50%;background:#147cff;display:inline-block;margin-right:8px;vertical-align:middle}
+ .mBtn,.mGoogle,.mEye,.mFaq summary{-webkit-tap-highlight-color:transparent}
+ .mBtn:active,.mGoogle:active{transform:translateY(1px)}
+ .mForm input,.mForm select,.mForm textarea,.mLoginForm input{min-width:0}
+ .mTwo>*{min-width:0}
+ .mFaq summary{cursor:pointer;min-height:50px;align-items:center;gap:12px}
+ .mFaq summary:after{flex:0 0 auto}
+ .mPlan,.mFeatureCard,.mInfoCard,.mBottomCard{max-width:100%}
+ .mPasswordWrap input{width:100%;box-sizing:border-box}
+ .mEye{cursor:pointer}
+}
+@media(prefers-reduced-motion:reduce){
+ .mBtn,.mGoogle,.mobileMenuPanel{transition:none!important}
+}
