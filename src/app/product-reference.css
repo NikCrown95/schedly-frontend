@@ -21,3 +21,12 @@
 @media(min-width:851px){
 .productRef{overflow:hidden}.productRef .siteNav .brandLogo{width:34px;height:34px;flex-basis:34px}.productRef .siteNav .brandRobot{transform:scale(.92)}.pHeroCopy{max-width:520px}.pHeroCopy .eyebrow{margin-bottom:0}.pScribbleTop i{margin-left:-12px}.pSystem:before{content:"";position:absolute;left:185px;right:175px;bottom:1px;height:90px;background:radial-gradient(ellipse,rgba(45,88,151,.12),transparent 68%);filter:blur(12px)}.pCalendar{z-index:2}.pClient,.pOnline{z-index:3}.pAgenda{z-index:4}.pFeature{position:relative}.pFeature:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#fff 0 48%,#fbfdff 100%);pointer-events:none}.pFeature2:before{background:linear-gradient(90deg,#fff 0 48%,#fcfbff 100%)}.pFeatureCopy,.pFeatureVisual{position:relative;z-index:1}.pNum{font-weight:500}.pFeatureCopy>div{max-width:390px}.pPhone{box-shadow:0 22px 46px rgba(27,43,76,.22)}.pPhone:after{content:"";position:absolute;top:6px;left:50%;width:52px;height:11px;border-radius:8px;background:#111827;transform:translateX(-50%)}.pFinal>div:first-child{max-width:590px}.pFinal>div:last-child{min-width:220px}
 }
+
+/* Approved product mockup — typography + alignment finishing */
+@media(min-width:851px){
+.productRef .siteNav{border-bottom:1px solid rgba(231,236,244,.7)}.productRef .siteNav nav .active{padding-bottom:8px}
+.pHeroCopy .eyebrow{font-weight:800}.pHeroCopy h1{font-weight:800}.pHeroCopy>p:not(.eyebrow){max-width:470px}.pHeroCopy .button{box-shadow:0 10px 22px rgba(11,27,73,.18)}
+.pClientTitle b,.pOnlineLabel b,.pAgenda b{font-weight:750}.pCalendar .pCalMain{background:#fff}.pWeek{margin-top:13px}.pAgenda small{margin-top:2px}
+.pFeatureCopy{align-items:start}.pFeatureCopy .pNum{line-height:1.4}.pFeatureCopy p{max-width:365px}.pFeature1 .pFeatureVisual{background:radial-gradient(circle at 35% 48%,rgba(227,249,240,.65),transparent 38%)}.pFeature2 .pFeatureVisual{background:radial-gradient(circle at 35% 48%,rgba(235,241,255,.75),transparent 40%)}.pFeature3 .pFeatureVisual{background:radial-gradient(circle at 36% 48%,rgba(232,247,255,.72),transparent 40%)}.pFeature2 .pBookingCalendar{transform:rotate(1deg)}.pFeature3 .pDash{transform:rotate(-.6deg)}
+.pFinal p{margin:0}.pFinal h2{letter-spacing:-1.7px;margin:8px 0 0}.pFinal small{text-align:center}
+}
