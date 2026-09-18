@@ -1,0 +1,4 @@
+import MobileMenu from "./MobileMenu";
+export const MLogo=()=> <a className="mLogo" href="/"><span className="mLogoMark">▦</span><span>Schedly</span></a>;
+export const MHeader=()=> <header className="mHeader"><MLogo/><MobileMenu/></header>;
+export const PhoneArt=({home=false}:{home?:boolean})=> home?<div className="mHomeArt"><div className="mPhoneShell"/><span className="mFloatIcon wa">●</span><span className="mFloatIcon plus">+</span><span className="mFloatIcon cal">▦</span><span className="mFloatIcon bell">●</span><div className="mBookingToast"><b>Nuova prenotazione</b><small>Lun 10 Giu, 14:00</small></div></div>:<div className="mPhoneArt"><div className="mPhoneShell"/><div className="mChatFloat">Ciao! Posso prenotare un appuntamento?</div><div className="mChatFloat second">Certo! Ecco le disponibilità per questa settimana:<div className="mSlots"><span>Lun<br/>10:00</span><span>Mar<br/>14:00</span><span>Mer<br/>16:00</span></div></div></div>;
