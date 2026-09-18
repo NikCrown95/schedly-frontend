@@ -291,3 +291,13 @@
 .mockHome .industries{padding:55px 20px 60px!important;background:#fbfcff!important}.mockHome .mobileIndustryTitle{font-size:35px!important;margin:12px 0 28px!important}.mockHome .industries>div{grid-template-columns:1fr 1fr!important;gap:13px!important}.mockHome .industries>div span{min-height:118px!important;border:1px solid #e8edf5!important;background:#fff!important}.mockHome .industries small{font-size:9.5px!important}
 .mockHome .mobileFinal{padding:58px 22px!important}.mockHome .mobileFinal h2{font-size:37px!important;line-height:.94!important;margin:13px 0 16px!important}.mockHome .mobileFinal p{font-size:12px!important;margin-bottom:22px!important}.mockHome .mobileFooter{padding:38px 22px!important}
 }
+/* HOME MOBILE — lower content polish pass 2 */
+@media(max-width:650px){
+.mockHome .mobileHow,.mockHome .mobileAction,.mockHome .waSection,.mockHome .dashSection,.mockHome .industries,.mockHome .mobileFinal{box-sizing:border-box!important;width:100%!important;max-width:none!important}
+.mockHome .mobileHow>*,.mockHome .mobileAction>*,.mockHome .waSection>*,.mockHome .dashSection>*,.mockHome .industries>*,.mockHome .mobileFinal>*{max-width:346px!important;margin-left:auto!important;margin-right:auto!important}
+.mockHome .mobileFeature{max-width:346px!important}.mockHome .mobileHow>a{display:block!important;margin-top:19px!important}
+.mockHome .actionStep{max-width:346px!important;margin-left:auto!important;margin-right:auto!important}.mockHome .actionNotice,.mockHome .actionNote{max-width:346px!important;margin-left:auto!important;margin-right:auto!important}
+.mockHome .chatDemo,.mockHome .aiList{max-width:346px!important}.mockHome .dashPreview{width:346px!important;max-width:100%!important}.mockHome .dashCopy{width:346px!important;max-width:100%!important}
+.mockHome .industries>div{max-width:346px!important}.mockHome .mobileFinal .button{width:100%!important}
+.mockHome .mobileFooter{width:100%!important;max-width:none!important}.mockHome .mobileFooter>*{max-width:346px!important;margin-left:auto!important;margin-right:auto!important}
+}
