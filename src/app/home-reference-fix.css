@@ -78,3 +78,16 @@
   .noteLeft{left:185px!important;bottom:12px!important;font-size:12px!important}.noteRight{right:4px!important;bottom:-9px!important;font-size:12px!important}
   .trusted{height:122px!important;max-width:1190px!important;padding:26px 26px!important}.trusted>p{font-size:7px!important}.trusted>div{font-size:10px!important;margin-top:23px!important}
 }
+
+/* iPad Chrome viewport correction: keep navbar/logo inside the visible first fold. */
+@media (min-width:1101px){
+  .mockHero{padding-top:0!important}
+  .nav{position:relative!important;top:0!important;transform:none!important;z-index:50!important;background:transparent!important}
+  .nav>.brand{display:block!important;position:relative!important;visibility:visible!important;opacity:1!important;width:154px!important;min-width:154px!important;height:58px!important;overflow:visible!important}
+  .nav>.brand>.officialLogo{display:block!important;visibility:visible!important;opacity:1!important;left:0!important;top:50%!important;width:154px!important;min-width:154px!important;height:auto!important;transform:translateY(-50%)!important}
+  .mockHeroGrid{padding-top:24px!important}
+  .mockCopy h1{font-size:53px!important}
+  .screen{left:94px!important;width:610px!important}
+  .mockPhone{left:-8px!important;width:198px!important;height:398px!important}
+  .created{right:8px!important}
+}
