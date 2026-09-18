@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react";
 
 const items = [
-  { href: "#prodotto", label: "Prodotto" },
-  { href: "#come-funziona", label: "Come funziona" },
-  { href: "#prezzi", label: "Prezzi" },
-  { href: "#demo", label: "Demo" },
-  { href: "#faq", label: "FAQ" },
+  { href: "/prodotto", label: "Prodotto" },
+  { href: "/come-funziona", label: "Come funziona" },
+  { href: "/prezzi", label: "Prezzi" },
+  { href: "/demo", label: "Demo" },
+  { href: "/faq", label: "FAQ" },
 ];
 
 export default function MobileMenu() {
@@ -38,7 +38,7 @@ export default function MobileMenu() {
         </nav>
         <div className="mobileMenuActions">
           <a href="/login" onClick={() => setOpen(false)}>Accedi</a>
-          <a className="button" href="#demo" onClick={() => setOpen(false)}>Richiedi una demo →</a>
+          <a className="button" href="/demo" onClick={() => setOpen(false)}>Richiedi una demo →</a>
         </div>
       </div>
     </>
