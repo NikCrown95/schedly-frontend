@@ -31,20 +31,17 @@
 .pFinal p{margin:0}.pFinal h2{letter-spacing:-1.7px;margin:8px 0 0}.pFinal small{text-align:center}
 }
 
-/* Desktop mode on narrow physical screens: preserve the approved 1024px composition.
-   Mobile browsers requesting "desktop site" otherwise trigger an intermediate 851–1023 layout
-   and compress the reference geometry. */
-@media(min-width:851px) and (max-width:1023px){
-.productRef{width:1024px;min-width:1024px;overflow:visible}.productRef .siteNav{width:1024px;max-width:none}.pHero{width:1024px;max-width:none}.pFeature{width:1024px}.pFinal{width:1024px}.productRef .siteNav{padding-left:55px;padding-right:55px}.pHero{padding-left:62px;padding-right:62px}.pFeatureCopy{padding-left:62px}.pFinal{padding-left:62px;padding-right:62px}
-}
 
-/* Product reference image recreated 2026-09 — exact composition pass */
-@media(min-width:1024px){
-.productRef .siteNav{max-width:1024px;height:58px;padding:0 40px}.productRef .siteNav .brand{font-size:20px}.productRef .siteNav nav{gap:38px}
-.pHero{height:525px;padding:62px 40px 0;background:radial-gradient(circle at 68% 22%,rgba(232,225,255,.72),transparent 34%),radial-gradient(circle at 23% 62%,rgba(218,249,255,.78),transparent 38%)}.pHeroCopy h1{font-size:48px;line-height:.9;margin:15px 0 16px}.pHeroCopy>p:not(.eyebrow){font-size:13px;line-height:1.5}.pHeroCopy .button{margin-top:3px}.pScribbleTop{right:170px;top:24px;font-size:13px}
-.pSystem{left:40px;right:34px;height:330px}.pCalendar{left:370px;top:6px;width:405px;height:305px}.pClient{left:170px;bottom:0;width:190px}.pOnline{right:0;bottom:-7px;width:168px}.pAgenda{left:445px;bottom:-20px}.pOnlineLabel{transform:translateY(-5px)}
-.pFeature{height:252px;grid-template-columns:50% 50%}.pFeatureCopy{grid-template-columns:48px 1fr;padding:40px 0 20px max(40px,calc((100vw - 1024px)/2 + 40px))}.pFeature h2{font-size:27px;letter-spacing:-1.6px}.pFeatureCopy p{font-size:10.5px}.pPhone{left:75px;top:-18px;width:205px;height:315px}.pFeatureVisual>.pScribble{right:55px;top:38px;font-size:12px}.pFloatIcon{right:63px;top:142px}
-.pBookingCalendar{left:-5px;top:10px;width:400px;height:225px;padding:20px}.pFeature2 .pFeatureVisual>.pScribble{right:35px;top:35px}.pFeature2 .pFloatIcon{right:47px;top:145px}
-.pDash{left:-80px;top:8px;width:525px;height:235px}.pFeature3 .pFeatureVisual>.pScribble{right:25px;top:30px}.pFeature3 .pFloatIcon{right:42px;top:142px}
-.pFinal{min-height:172px;padding:42px max(64px,calc((100vw - 1024px)/2 + 64px))}.pFinal h2{font-size:30px}.pFinal .light{min-width:210px}
+/* Single desktop reference geometry — avoids conflicting legacy desktop overrides */
+@media(min-width:851px){
+.productRef{width:100%;min-width:0;overflow-x:hidden}
+.productRef .siteNav{width:100%;max-width:1180px;height:72px;margin:auto;padding:0 42px}
+.pHero{width:100%;max-width:1180px;height:620px;margin:auto;padding:58px 48px 0}
+.pHeroCopy h1{font-size:56px;line-height:.92}.pSystem{left:48px;right:48px;height:370px}
+.pCalendar{left:27%;top:25px;width:52%;height:330px}.pClient{left:0;width:21%;bottom:10px}.pOnline{right:0;width:20%;bottom:8px}.pAgenda{left:43%;bottom:-22px}
+.pFeature{width:100%;height:330px;grid-template-columns:50% 50%}.pFeatureCopy{padding:54px 20px 30px max(48px,calc((100vw - 1180px)/2 + 48px))}.pFeature h2{font-size:31px}.pPhone{left:16%;top:-20px;width:210px;height:350px}.pBookingCalendar{left:4%;top:35px;width:390px;height:235px}.pDash{left:-8%;top:32px;width:535px;height:275px}
+.pFinal{width:100%;min-height:175px;padding:42px max(48px,calc((100vw - 1180px)/2 + 48px))}
+}
+@media(min-width:851px) and (max-width:1050px){
+.productRef .siteNav{padding-left:32px;padding-right:32px}.pHero{padding-left:32px;padding-right:32px}.pHeroCopy h1{font-size:50px}.pSystem{left:32px;right:32px}.pCalendar{left:25%;width:54%}.pClient{width:22%}.pOnline{width:20%}.pFeatureCopy{padding-left:32px}.pFeature h2{font-size:27px}.pPhone{left:12%}.pBookingCalendar{left:1%;width:365px}.pDash{left:-12%;width:500px}.pFinal{padding-left:40px;padding-right:40px}
 }
