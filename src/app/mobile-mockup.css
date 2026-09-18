@@ -50,3 +50,25 @@
 @media(min-width:371px) and (max-width:430px){
  .mobileMock{padding-left:28px;padding-right:28px}
 }
+
+/* Per-screen 390px composition pass */
+@media(max-width:768px){
+ .mobileMock{box-sizing:border-box}
+ .mHomePage .mHeader{height:84px}.mHomePage .mEyebrow{margin-top:8px;margin-bottom:14px}.mHomePage h1{font-size:39px;line-height:.96;margin-bottom:15px}.mHomePage .mLead{margin-bottom:20px}.mHomePage .mHomeArt{margin-top:23px}
+ .mProductPage .mHeader,.mHowPage .mHeader,.mPricingPage .mHeader,.mDemoPage .mHeader,.mFaqPage .mHeader{height:82px}
+ .mProductPage h1,.mHowPage h1,.mPricingPage h1,.mDemoPage h1,.mFaqPage h1{font-size:35px;line-height:.98;letter-spacing:-2px}
+ .mProductPage .mLead,.mDemoPage .mLead,.mFaqPage .mLead{font-size:13px;line-height:1.48}
+ .mProductPage .mFeatureList{margin:21px 0 18px;gap:12px}.mProductPage .mFeatureCard{padding:15px 16px;min-height:76px}.mProductPage .mBottomBtn{margin-top:18px}
+ .mHowPage .mSteps{margin:23px 0 19px;gap:19px}.mHowPage .mStep{grid-template-columns:42px 1fr;gap:13px}.mHowPage .mNo{width:42px;height:42px}.mHowPage .mStep:not(:last-child):after{left:20px;top:42px;height:39px}.mHowPage .mPhoneArt{height:246px;margin:18px 0}.mHowPage .mInfoCard{margin-top:17px}
+ .mPricingPage .mLead{font-size:13px;margin-bottom:16px}.mPricingPage .mPricingToggle{margin:16px 0 13px}.mPricingPage .mPlan{padding:18px;margin-bottom:13px}.mPricingPage .mPlan h2{margin-bottom:9px}.mPricingPage .mChecks{padding:5px 0}.mPricingPage .mChecks li{margin:7px 0}.mPricingPage .mRefund{margin:15px 0 3px}
+ .mDemoPage .mLead{margin-bottom:19px}.mDemoPage .mForm{gap:11px}.mDemoPage .mForm input,.mDemoPage .mForm select{height:42px}.mDemoPage .mForm textarea{height:56px}.mDemoPage .mForm .mBtn{height:49px;margin-top:2px}
+ .mFaqPage .mLead{margin-bottom:12px}.mFaqPage .mFaq{margin-top:8px}.mFaqPage .mFaq summary{padding:15px 2px}.mFaqPage .mBottomCard{margin-top:22px}
+ .mLogin .mHeader{height:82px;margin-bottom:24px}.mLogin h1{font-size:38px}.mLogin .mLead{font-size:13px;margin-bottom:24px}.mLoginForm{gap:13px}
+}
+@media(max-width:370px){
+ .mHomePage h1{font-size:36px}.mProductPage h1,.mHowPage h1,.mPricingPage h1,.mDemoPage h1,.mFaqPage h1{font-size:32px}
+ .mFeatureCard{grid-template-columns:44px 1fr;gap:12px}.mFeatureCard .mIcon{width:44px;height:44px}
+}
+@media(min-width:410px) and (max-width:430px){
+ .mobileMock h1{max-width:360px}.mHomePage h1{font-size:40px}.mProductPage h1,.mHowPage h1,.mPricingPage h1,.mDemoPage h1,.mFaqPage h1{font-size:36px}
+}
