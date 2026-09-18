@@ -317,3 +317,35 @@
 .mockHome .mobileFinal{padding:68px 22px!important;min-height:300px!important;display:flex!important;flex-direction:column!important;justify-content:center!important;background:linear-gradient(145deg,#071b49,#173fa0 60%,#7048ef)!important}.mockHome .mobileFinal h2{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important}.mockHome .mobileFinal p{font-size:12.5px!important;line-height:1.5!important;margin:17px auto 24px!important}.mockHome .mobileFinal .button{height:50px!important;border-radius:9px!important;font-size:10px!important}
 .mockHome .mobileFooter{padding:42px 22px 48px!important}.mockHome .mobileFooter .homeBrand{margin-bottom:24px!important}.mockHome .mobileFooter p,.mockHome .mobileFooter a{font-size:9px!important;line-height:1.6!important}.mockHome .mobileFooter nav{gap:16px!important;margin-top:18px!important}
 }
+
+/* Mobile dashboard fidelity: keep the desktop mockup intact and scale it as one unit. */
+@media(max-width:650px){
+  .mockHome .dashSection{display:flex!important;flex-direction:column!important;height:auto!important;overflow:hidden!important;padding:66px 0 72px!important;gap:38px!important}
+  .mockHome .dashSection>.dashPreview{order:1!important}
+  .mockHome .dashSection>.dashCopy{order:2!important}
+  .mockHome .dashPreview{
+    width:620px!important;max-width:none!important;height:322px!important;
+    grid-template-columns:112px 1fr!important;margin:0!important;
+    transform:scale(.558)!important;transform-origin:top center!important;
+    margin-bottom:-142px!important;border-radius:24px!important;
+    box-shadow:0 28px 70px rgba(10,30,70,.16)!important;overflow:hidden!important
+  }
+  .mockHome .dashPreview aside{padding:20px 14px!important;gap:13px!important;font-size:9px!important}
+  .mockHome .dashPreview aside b{font-size:11px!important;margin-bottom:7px!important}
+  .mockHome .dashBody{padding:0 18px 14px!important;overflow:hidden!important}
+  .mockHome .dashTop{height:68px!important;grid-template-columns:125px 1fr 145px!important;gap:10px!important}
+  .mockHome .dashTop>b{font-size:21px!important}
+  .mockHome .dashSearch{height:34px!important;font-size:9px!important;padding:9px 12px!important}
+  .mockHome .dashTop button{height:34px!important;font-size:9px!important;padding:7px 10px!important}
+  .mockHome .kpis{gap:9px!important;margin-top:10px!important}
+  .mockHome .kpis b{min-height:78px!important;padding:11px!important;font-size:8px!important;border-radius:12px!important}
+  .mockHome .kpis strong{font-size:25px!important;margin-top:7px!important}
+  .mockHome .kpis small{font-size:7px!important}
+  .mockHome .nextHead{margin:13px 0 7px!important}.mockHome .nextHead h4{font-size:12px!important}
+  .mockHome .dashRows p{grid-template-columns:18px 48px 1fr 1fr!important;min-height:29px!important;padding:5px 8px!important;font-size:8px!important}
+  .mockHome .dashRows i{width:14px!important;height:14px!important;font-size:5px!important}
+  .mockHome .dashCopy{padding:0 22px!important;width:100%!important;max-width:390px!important}
+  .mockHome .dashCopy h2{font-size:40px!important;line-height:.93!important;letter-spacing:-2.2px!important}
+  .mockHome .dashCopy p{font-size:13px!important;line-height:1.52!important}
+  .mockHome .dashCopy .button{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:190px!important}
+}
