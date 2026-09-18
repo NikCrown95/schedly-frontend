@@ -91,3 +91,18 @@
   .mockPhone{left:-8px!important;width:198px!important;height:398px!important}
   .created{right:8px!important}
 }
+
+/* Exact details from approved homepage mockup. */
+.bot{font-size:0!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important;vertical-align:middle!important}
+.bot img{display:block!important;width:34px!important;height:auto!important;max-width:none!important;transform:translateX(8px)!important}
+.screenTop .bot{width:18px!important;height:18px!important;border-radius:5px!important;background:none!important}
+.screenTop .bot img{width:38px!important;transform:translateX(9px)!important}
+.mockChat .bot,.chatDemo .bot{width:18px!important;height:18px!important;border-radius:5px!important;background:#eef4ff!important}
+.createdArrow{position:absolute!important;right:-20px!important;top:-28px!important;font-family:cursive!important;font-size:31px!important;line-height:1!important;transform:rotate(-34deg)!important;color:#071331!important}
+@media(min-width:1101px){
+ .screenTop>b{display:flex!important;align-items:center!important;gap:6px!important;font-size:9px!important;color:#071331!important}
+ .screenTop{grid-template-columns:82px 1fr auto!important}
+ .created{right:35px!important;bottom:55px!important;width:220px!important;border-radius:14px!important;box-shadow:0 15px 32px rgba(14,30,62,.16)!important}
+ .created strong{font-size:8.5px!important}.created span{font-size:6.4px!important}
+ .createdArrow{right:5px!important;top:auto!important;bottom:110px!important}
+}
