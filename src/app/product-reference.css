@@ -47,3 +47,8 @@
 .productRef .pDash{left:50%!important;top:58px!important;width:500px!important;height:270px!important;transform:translateX(-50%) scale(.9)!important;transform-origin:top center!important}.productRef .pFeature3 .pFloatIcon{right:38px!important;top:174px!important}
 .productRef .pFinal{min-height:190px!important;padding:44px 52px!important}.productRef .pFinal h2{font-size:31px!important}
 }
+
+/* Replace platform emoji arrows with custom drawn arrows */
+.pScribble .sketchArrow{display:block!important;position:relative!important;width:34px!important;height:28px!important;margin-top:4px!important}
+.pScribble .sketchArrow:before{content:""!important;position:absolute!important;left:4px!important;top:3px!important;width:24px!important;height:16px!important;border-left:2px solid #17234c!important;border-bottom:2px solid #17234c!important;border-radius:0 0 0 18px!important;transform:rotate(-10deg)!important}
+.pScribble .sketchArrow:after{content:""!important;position:absolute!important;left:0!important;bottom:2px!important;width:9px!important;height:9px!important;border-left:2px solid #17234c!important;border-bottom:2px solid #17234c!important;transform:rotate(-5deg)!important}
