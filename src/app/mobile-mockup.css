@@ -38,3 +38,15 @@
   .mGoogleG{font-size:16px;font-weight:900;line-height:1;color:#4285f4}
   .mPasswordWrap{position:relative}.mPasswordWrap input{padding-right:42px!important}.mEye{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:28px;height:28px;border:0;background:transparent;padding:5px;color:#7d899b}.mEye svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 }
+
+@media(max-width:768px){
+ .mIcon svg,.mRefundIcon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .mRefund{display:flex;flex-direction:column;align-items:center;gap:3px}.mRefundIcon{width:28px;height:28px;display:grid;place-items:center;color:#1682f8;margin-bottom:2px}
+ .mobileMock> .mEyebrow:not(.mPill){margin-top:10px}
+ .mFeatureCard{min-height:82px;box-sizing:border-box}.mFeatureCard b{letter-spacing:-.15px}
+ .mPlan .mBtn{height:46px}.mPlan.pro{box-shadow:0 14px 32px rgba(45,102,236,.12)}
+ .mForm input:focus,.mForm select:focus,.mForm textarea:focus,.mLoginForm input:focus{outline:none;border-color:#6ba9f7;box-shadow:0 0 0 3px rgba(22,130,248,.08)}
+}
+@media(min-width:371px) and (max-width:430px){
+ .mobileMock{padding-left:28px;padding-right:28px}
+}
