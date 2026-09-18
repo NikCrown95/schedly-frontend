@@ -8,3 +8,25 @@ html,body{width:100%;overflow-x:hidden}.page,.home{width:100%;overflow-x:hidden}
 .pageHero{padding-left:20px!important;padding-right:20px!important}.pageHero h1,.demoCopy h1{font-size:40px;line-height:.98;letter-spacing:-2.4px}
 .darkCta{margin-left:18px!important;margin-right:18px!important;border-radius:20px!important}
 }
+
+
+/* Functional mobile navigation */
+.mobileMenuButton{display:none}
+.mobileMenuPanel{display:none}
+html{scroll-behavior:smooth}
+@media(max-width:760px){
+  .mobileMenuButton{display:flex;position:relative;z-index:1002;width:44px;height:44px;border:0;background:transparent;padding:10px;flex-direction:column;justify-content:center;gap:5px;cursor:pointer}
+  .mobileMenuButton span{display:block;width:24px;height:2px;border-radius:2px;background:#101a43;transition:transform .25s ease,opacity .2s ease}
+  .mobileMenuButton.isOpen span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .mobileMenuButton.isOpen span:nth-child(2){opacity:0}
+  .mobileMenuButton.isOpen span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .mobileMenuPanel{display:flex;position:fixed;z-index:1001;inset:0;background:rgba(248,251,255,.98);backdrop-filter:blur(18px);padding:104px 24px 32px;flex-direction:column;justify-content:space-between;opacity:0;visibility:hidden;transform:translateY(-12px);transition:.25s ease}
+  .mobileMenuPanel.isOpen{opacity:1;visibility:visible;transform:none}
+  .mobileMenuPanel nav{display:flex;flex-direction:column}
+  .mobileMenuPanel nav a{display:flex;align-items:center;justify-content:space-between;padding:17px 2px;border-bottom:1px solid #dfe7f4;color:#0d1740;font-size:22px;font-weight:700;text-decoration:none}
+  .mobileMenuPanel nav a span{color:#1478ff}
+  .mobileMenuActions{display:grid;gap:12px}
+  .mobileMenuActions>a:first-child{text-align:center;color:#17224a;font-weight:700;text-decoration:none;padding:12px}
+  .mobileMenuActions .button{text-align:center}
+  #prodotto,#come-funziona,#prezzi,#demo,#faq{scroll-margin-top:78px}
+}
