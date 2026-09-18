@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./mobile-mockup.css";
 import "./globals.css";
 import "./home-polish.css";
 import "./marketing-pages.css";
