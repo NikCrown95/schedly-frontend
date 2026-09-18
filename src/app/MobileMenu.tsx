@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const items = [
   { href: "/prodotto", label: "Prodotto" },
@@ -12,6 +13,7 @@ const items = [
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -33,7 +35,7 @@ export default function MobileMenu() {
       <div className={"mobileMenuPanel" + (open ? " isOpen" : "")} id="mobile-navigation">
         <nav aria-label="Navigazione mobile">
           {items.map((item) => (
-            <a key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}<span>→</span></a>
+            <a key={item.href} href={item.href} className={pathname === item.href ? "isCurrent" : ""} aria-current={pathname === item.href ? "page" : undefined} onClick={() => setOpen(false)}>{item.label}<span>→</span></a>
           ))}
         </nav>
         <div className="mobileMenuActions">
