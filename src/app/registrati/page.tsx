@@ -10,24 +10,24 @@ export default function Registrati(){
     <div className="mRegisterIntro">
       <p className="mEyebrow">REGISTRATI</p>
       <h1>Crea il tuo <span className="mBlue">account.</span></h1>
-      <p className="mLead">Crea il tuo account per iniziare la prova gratuita di 7 giorni.</p>
+      <p className="mLead">Crea il tuo account Schedly. Bastano pochi secondi.</p>
     </div>
     <form className="mLoginForm">
       <label>Nome e cognome<input type="text" placeholder="Mario Rossi" autoComplete="name"/></label>
       <label>Email<input type="email" placeholder="mario@email.it" autoComplete="email"/></label>
       <label>Password<div className="mPasswordWrap"><input type={showPassword?"text":"password"} placeholder="Crea una password" autoComplete="new-password"/><button className="mEye" type="button" aria-label={showPassword?"Nascondi password":"Mostra password"} aria-pressed={showPassword} onClick={()=>setShowPassword(v=>!v)}><svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.7"/></svg></button></div></label>
-      <a className="mBtn" href="/demo">Inizia la prova gratuita →</a>
+      <a className="mBtn" href="/demo">Registrati →</a>
       <div className="mDivider">oppure</div>
       <button className="mGoogle" type="button"><span className="mGoogleG">G</span><span>Continua con Google</span></button>
       <p className="mSignup">Hai già un account?<a href="/login">Accedi</a></p>
-      <p className="mRegisterFine">Nessuna carta di credito richiesta.<br/>*La prova gratuita è disponibile una sola volta per attività.</p>
+      <p className="mRegisterFine">Puoi registrarti anche senza avviare una prova gratuita.</p>
     </form>
   </main>
   <main className="registerDesktop desktopOnly">
     <header className="registerNav"><a className="registerBrand" href="/"><img src="/schedly-logo.png" alt="" aria-hidden="true"/><b>Schedly</b></a><div><a href="/login">Accedi</a><a className="button buttonSmall" href="/registrati">Registrati</a></div></header>
     <section className="registerGrid">
-      <div className="registerPitch"><p className="eyebrow">INIZIA CON SCHEDLY</p><h1>Più tempo per la tua attività.<br/><span>Meno tempo perso.</span></h1><p>Crea il tuo account e prova Schedly gratuitamente per 7 giorni. Nessuna carta di credito richiesta.</p><div className="registerPoints"><span>✓ Agenda e clienti in un unico posto</span><span>✓ Promemoria automatici</span><span>✓ Puoi attivare Schedly AI quando vuoi</span></div></div>
-      <form className="registerCard"><p className="eyebrow">REGISTRATI</p><h2>Crea il tuo account</h2><p>Crea il tuo account per iniziare la prova gratuita di 7 giorni.</p><label>Nome e cognome<input type="text" placeholder="Mario Rossi" autoComplete="name"/></label><label>Email<input type="email" placeholder="mario@email.it" autoComplete="email"/></label><label>Password<div className="registerPassword"><input type={showPassword?"text":"password"} placeholder="Crea una password" autoComplete="new-password"/><button type="button" onClick={()=>setShowPassword(v=>!v)}>{showPassword?"Nascondi":"Mostra"}</button></div></label><a className="button registerPrimary" href="/demo">Registrati gratis →</a><div className="registerDivider">oppure</div><button className="registerGoogle" type="button">G&nbsp;&nbsp; Continua con Google</button><small>Hai già un account? <a href="/login">Accedi</a></small></form>
+      <div className="registerPitch"><p className="eyebrow">INIZIA CON SCHEDLY</p><h1>Più tempo per la tua attività.<br/><span>Meno tempo perso.</span></h1><p>Crea il tuo account Schedly e configura il tuo spazio di lavoro.</p><div className="registerPoints"><span>✓ Agenda e clienti in un unico posto</span><span>✓ Promemoria automatici</span><span>✓ Puoi attivare Schedly AI quando vuoi</span></div></div>
+      <form className="registerCard"><p className="eyebrow">REGISTRATI</p><h2>Crea il tuo account</h2><p>Crea il tuo account Schedly. Bastano pochi secondi.</p><label>Nome e cognome<input type="text" placeholder="Mario Rossi" autoComplete="name"/></label><label>Email<input type="email" placeholder="mario@email.it" autoComplete="email"/></label><label>Password<div className="registerPassword"><input type={showPassword?"text":"password"} placeholder="Crea una password" autoComplete="new-password"/><button type="button" onClick={()=>setShowPassword(v=>!v)}>{showPassword?"Nascondi":"Mostra"}</button></div></label><a className="button registerPrimary" href="/demo">Registrati gratis →</a><div className="registerDivider">oppure</div><button className="registerGoogle" type="button">G&nbsp;&nbsp; Continua con Google</button><small>Hai già un account? <a href="/login">Accedi</a></small></form>
     </section>
     <style>{`
       .registerDesktop{min-height:100vh;background:radial-gradient(circle at 85% 10%,rgba(102,74,238,.13),transparent 24%),radial-gradient(circle at 10% 15%,rgba(17,154,255,.12),transparent 24%),#fff;color:#071331}
