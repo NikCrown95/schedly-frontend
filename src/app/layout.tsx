@@ -7,6 +7,7 @@ import "./logo.css";
 import "./how-approved.css";
 import "./home-reference-fix.css";
 import "./mobile-mockup.css";
+import "./home-v4.css";
 
 export const metadata: Metadata = {
   title: "Schedly — Appuntamenti, senza perdere tempo",
