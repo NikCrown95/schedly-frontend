@@ -175,3 +175,13 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
   .homeV4 .v4OfficialLogo{width:140px!important;height:37px!important}
   .homeV4 .v4OfficialLogoImage{width:136px!important;height:auto!important;max-width:none!important}
 }
+
+/* Reference-matched industry pictograms. Scope intentionally limited below hero. */
+.homeV4 .v4Industries div span svg{
+  width:28px!important;height:28px!important;display:block!important;flex:none!important;
+  fill:none!important;stroke:#101d72!important;stroke-width:1.9!important;
+  stroke-linecap:round!important;stroke-linejoin:round!important;
+}
+@media (min-width:769px) and (max-width:1180px){
+  .homeV4 .v4Industries div span svg{width:18px!important;height:18px!important;stroke-width:2!important}
+}
