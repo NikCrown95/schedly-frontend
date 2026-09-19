@@ -20,7 +20,7 @@ export default function Registrati(){
       <div className="mDivider">oppure</div>
       <button className="mGoogle" type="button"><span className="mGoogleG">G</span><span>Continua con Google</span></button>
       <p className="mSignup">Hai già un account?<a href="/login">Accedi</a></p>
-      <p className="mRegisterFine">Nessuna carta di credito richiesta.<br/>Puoi cambiare piano in qualsiasi momento.</p>
+      <p className="mRegisterFine">Nessuna carta di credito richiesta.<br/>*La prova gratuita è disponibile una sola volta per attività.</p>
     </form>
   </main>
   <main className="registerDesktop desktopOnly">
