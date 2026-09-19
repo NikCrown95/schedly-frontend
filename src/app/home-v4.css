@@ -111,3 +111,33 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
   .homeV4 .v4Features p{font-size:6.3px!important;line-height:1.45!important}
   .homeV4 .v4Industries{padding-top:22px!important}
 }
+
+/* Permanent official navbar logo: both pieces are pixel crops of /schedly-logo.png.
+   No recreated text, no nested SVG (Safari-safe). */
+.homeV4 .v4OfficialLogo{
+  display:flex!important;align-items:center!important;gap:8px!important;
+  width:205px!important;height:54px!important;overflow:visible!important;
+}
+.homeV4 .v4OfficialIcon,.homeV4 .v4OfficialWord{
+  display:block!important;flex:none!important;background-image:url('/schedly-logo.png')!important;
+  background-repeat:no-repeat!important;
+}
+.homeV4 .v4OfficialIcon{
+  width:56px!important;height:42px!important;
+  background-size:197px 98px!important;background-position:-72px -15px!important;
+}
+.homeV4 .v4OfficialWord{
+  width:140px!important;height:31px!important;
+  background-size:238px 119px!important;background-position:-50px -74px!important;
+}
+@media (min-width:769px) and (max-width:1180px){
+  .homeV4 .v4OfficialLogo{width:140px!important;height:37px!important;gap:5px!important}
+  .homeV4 .v4OfficialIcon{
+    width:38px!important;height:29px!important;
+    background-size:136px 68px!important;background-position:-50px -10.5px!important;
+  }
+  .homeV4 .v4OfficialWord{
+    width:96px!important;height:21px!important;
+    background-size:164px 82px!important;background-position:-34px -51px!important;
+  }
+}
