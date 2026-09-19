@@ -225,3 +225,54 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
   .homeV4 .v4Features{max-width:1024px!important;height:90px!important;margin:0 auto!important;padding:14px 38px!important;gap:12px!important}.homeV4 .v4Features article{height:62px!important;padding:12px 13px!important;grid-template-columns:33px 1fr!important;gap:8px!important}.homeV4 .v4Features .fi{width:27px!important;height:27px!important}.homeV4 .v4Features b{font-size:8.3px!important}.homeV4 .v4Features p{font-size:6.2px!important}
   .homeV4 .v4Industries{max-width:948px!important;margin:0 auto!important;padding:15px 38px 26px!important}.homeV4 .v4Industries>p{font-size:7.6px!important}.homeV4 .v4Industries>div{margin-top:16px!important}.homeV4 .v4Industries span{font-size:14px!important}.homeV4 .v4Industries b{font-size:7px!important}
 }
+
+
+/* Final visual correction from supplied reference.
+   Official identity is built only from the supplied official logo asset:
+   one crop for the calendar mark + one crop for the official wordmark. */
+.homeV4 .horizontalLogo{display:flex!important;align-items:center!important;gap:7px!important;width:100%!important;height:100%!important}
+.homeV4 .horizontalLogoIcon{position:relative!important;display:block!important;width:45px!important;height:45px!important;overflow:hidden!important;flex:0 0 45px!important}
+.homeV4 .horizontalLogoIcon img{position:absolute!important;width:91px!important;height:auto!important;max-width:none!important;left:-23px!important;top:-5px!important;transform:none!important}
+.homeV4 .horizontalLogoWord{position:relative!important;display:block!important;width:139px!important;height:45px!important;overflow:hidden!important;flex:0 0 139px!important}
+.homeV4 .horizontalLogoWord img{position:absolute!important;width:181px!important;height:auto!important;max-width:none!important;left:-21px!important;top:-74px!important;transform:none!important}
+.homeV4 .horizontalLogo.compact{gap:4px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoIcon{width:24px!important;height:24px!important;flex-basis:24px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoIcon img{width:49px!important;left:-13px!important;top:-3px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoWord{width:76px!important;height:24px!important;flex-basis:76px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoWord img{width:99px!important;left:-12px!important;top:-41px!important}
+.homeV4 .productBrand{display:block!important;width:104px!important;height:28px!important}
+
+/* Match the supplied dark Agenda artwork more closely. */
+.homeV4 .v4Laptop{background:#09162d!important;border-color:#071326!important}
+.homeV4 .v4LaptopTop{background:#0b1730!important;border-bottom:1px solid #1c2b47!important}
+.homeV4 .v4LaptopBody{background:#0d1930!important}
+.homeV4 .v4LaptopBody aside{background:#0a162d!important}
+.homeV4 .v4Agenda{background:#0d1930!important}
+.homeV4 .v4Side{background:#0d1930!important}
+.homeV4 .v4AgendaHead h3{font-weight:800!important;color:#f5f8ff!important}
+.homeV4 .v4Day>b{color:#d9e4f7!important}
+.homeV4 .v4Phone{background:#101a27!important;border-color:#070e19!important}
+.homeV4 .v4PhoneHead{background:#101a27!important}
+.homeV4 .v4Wa p{border-radius:7px!important}
+.homeV4 .v4Wa .me{background:#78e7a7!important}
+
+/* The reference laptop starts higher and occupies more of the visual column. */
+@media (min-width:1181px){
+ .homeV4 .v4Laptop{left:5px!important;top:-2px!important;width:735px!important;height:548px!important}
+ .homeV4 .v4Phone{right:-3px!important;top:125px!important;width:215px!important;height:448px!important}
+}
+@media (min-width:769px) and (max-width:1180px){
+ .homeV4 .v4OfficialLogo{display:block!important;width:142px!important;height:52px!important;overflow:visible!important}
+ .homeV4 .v4OfficialLogo .horizontalLogo{transform:scale(.69)!important;transform-origin:left center!important;width:205px!important}
+ .homeV4 .v4Laptop{left:0!important;top:-1px!important;width:510px!important;height:382px!important}
+ .homeV4 .v4LaptopTop{height:42px!important;grid-template-columns:1fr 154px 18px 24px!important;padding:0 12px!important}
+ .homeV4 .v4LaptopBody{height:326px!important;grid-template-columns:87px 1fr 115px!important}
+ .homeV4 .v4Agenda{padding:12px 10px 7px!important}.homeV4 .v4AgendaHead h3{font-size:13px!important}.homeV4 .v4AgendaHead small{font-size:5px!important}
+ .homeV4 .v4Week{height:255px!important;margin-top:9px!important;grid-template-columns:26px repeat(3,1fr)!important;background:repeating-linear-gradient(to bottom,#26334a 0 1px,transparent 1px 25px)!important}
+ .homeV4 .v4Times{padding-top:17px!important;gap:14px!important}.homeV4 .v4Times i{font-size:4.2px!important}.homeV4 .v4Day>b{height:18px!important;font-size:5px!important}.homeV4 .v4Day span{left:5px!important;right:5px!important;padding:5px!important;font-size:5px!important}
+ .homeV4 .v4Day .blue{top:27px!important}.homeV4 .v4Day .pink{top:62px!important}.homeV4 .v4Day .purple{top:97px!important}.homeV4 .v4Day .green{top:39px!important}.homeV4 .v4Day .second{top:75px!important}.homeV4 .v4Day .yellow{top:173px!important}.homeV4 .v4Day .third{top:137px!important}.homeV4 .v4Day .fourth{top:189px!important}
+ .homeV4 .v4Side{padding:12px 8px!important}.homeV4 .v4Side h4{font-size:6px!important}.homeV4 .v4MiniCal,.homeV4 .v4Side p{font-size:4.5px!important}
+ .homeV4 .v4Phone{right:-5px!important;top:88px!important;width:148px!important;height:309px!important;border-width:6px!important;border-radius:25px!important}
+ .homeV4 .v4PhoneHead{height:46px!important;padding:12px 8px 6px!important;grid-template-columns:25px 1fr 14px!important;font-size:5.5px!important}.homeV4 .v4PhoneHead b{font-size:6.5px!important}
+ .homeV4 .v4Wa{padding:8px 6px!important;gap:7px!important}.homeV4 .v4Wa p{padding:7px!important;font-size:5.8px!important}.homeV4 .v4PhoneInput{margin:6px!important;padding:6px!important;font-size:5px!important}
+}
