@@ -130,3 +130,11 @@
  .mobileMenuActions{padding-top:14px;border-top:1px solid #e8edf4}.mobileMenuActions>a:first-child{border:1px solid #e1e8f2;border-radius:12px;background:#fff}.mobileMenuActions .button{border-radius:12px!important}
 }
 @media(max-width:370px){.mHomeProduct,.mDashboardSection{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px}}
+
+/* Registration CTA + page */
+@media(max-width:768px){
+ .mSecondaryBtn{height:48px;margin-top:10px;border:1px solid #dbe5f2;border-radius:10px;background:#fff;color:#176fda;font-size:12px;font-weight:800;text-decoration:none;display:flex;align-items:center;justify-content:center}
+ .mRegisterPage{padding-bottom:70px}.mRegisterPage .mHeader{height:82px}.mRegisterIntro{margin:4px 0 22px}.mRegisterPage h1{font-size:37px;line-height:.98;margin-bottom:10px}.mRegisterFine{text-align:center;color:#8b96a8;font-size:8px;line-height:1.5;margin-top:18px}
+ .mobileMenuActions>a:first-child.button{color:#fff!important;padding:0!important;border:0!important;background:linear-gradient(100deg,#0986f8,#7444ee)!important;display:flex!important;align-items:center!important;justify-content:center!important;min-height:48px!important}
+ .mobileMenuActions>a:last-child{text-align:center;color:#17224a;font-weight:700;text-decoration:none;padding:12px;border:1px solid #e1e8f2;border-radius:12px;background:#fff}
+}
