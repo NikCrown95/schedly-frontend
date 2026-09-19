@@ -30,3 +30,86 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
 @media(min-width:900px) and (max-width:1180px){
 .homeV4 .v4Hero{height:620px}.homeV4 .v4Nav{height:74px;padding:0 30px}.homeV4 .v4Nav .brand{width:170px!important;min-width:170px!important}.homeV4 .v4Nav .brand>.officialLogo{width:170px!important;min-width:170px!important}.homeV4 .navLinks{gap:28px;font-size:11px}.v4HeroInner{height:546px;padding:32px 30px 0;grid-template-columns:38% 62%}.v4Copy{padding-top:24px}.v4Copy h1{font-size:45px}.v4Lead{font-size:13px}.v4MainCta{width:260px;height:50px;font-size:14px}.v4NoCard{width:260px}.v4Checks{gap:11px;font-size:7px}.v4Laptop{left:45px;width:610px;height:438px}.v4LaptopBody{height:365px;grid-template-columns:105px 1fr 140px}.v4Phone{width:178px;height:350px;top:115px}.v4Features{padding-left:30px;padding-right:30px}.v4Industries{padding-left:30px;padding-right:30px}
 }
+
+
+/* V4 calibration — approved 1476×1004 desktop reference.
+   This layer intentionally wins over legacy homepage styles. */
+@media (min-width:769px){
+  .homeV4 .v4Nav{
+    display:flex!important;visibility:visible!important;opacity:1!important;
+    position:relative!important;top:auto!important;left:auto!important;
+    width:100%!important;max-width:1476px!important;height:104px!important;
+    margin:0 auto!important;padding:0 55px!important;transform:none!important;
+    background:transparent!important;overflow:visible!important
+  }
+  .homeV4 .v4Nav .brand{display:block!important;width:205px!important;min-width:205px!important;height:72px!important;flex:0 0 205px!important}
+  .homeV4 .v4Nav .brand>.officialLogo{display:block!important;width:205px!important;min-width:205px!important;height:auto!important;opacity:1!important;visibility:visible!important}
+  .homeV4 .v4Nav .navLinks{display:flex!important;gap:39px!important;font-size:13px!important;font-weight:650!important}
+  .homeV4 .v4Nav .navActions{display:flex!important;gap:30px!important;font-size:13px!important}
+  .homeV4 .v4Hero{height:710px!important}
+  .homeV4 .v4HeroInner{max-width:1476px!important;height:606px!important;padding:30px 55px 0!important;grid-template-columns:36.7% 63.3%!important}
+  .homeV4 .v4Copy{padding-top:26px!important}
+  .homeV4 .v4Copy h1{font-size:54px!important;line-height:.96!important;letter-spacing:-3.4px!important}
+  .homeV4 .v4Visual{height:548px!important}
+  .homeV4 .v4Laptop{left:52px!important;top:0!important;width:700px!important;height:500px!important}
+  .homeV4 .v4Phone{right:-7px!important;top:128px!important;width:205px!important;height:405px!important}
+  .homeV4 .v4Features{max-width:1476px!important;height:130px!important;padding:20px 55px!important;gap:18px!important}
+  .homeV4 .v4Industries{max-width:1365px!important;padding:22px 55px 38px!important}
+}
+/* iPad landscape renders the 1476px reference at ~1024 CSS px.
+   Preserve the reference proportions instead of falling into the old tablet layout. */
+@media (min-width:769px) and (max-width:1180px){
+  .homeV4 .v4Hero{height:493px!important}
+  .homeV4 .v4Nav{height:70px!important;max-width:1024px!important;padding:0 38px!important}
+  .homeV4 .v4Nav .brand{width:142px!important;min-width:142px!important;height:50px!important;flex-basis:142px!important}
+  .homeV4 .v4Nav .brand>.officialLogo{width:142px!important;min-width:142px!important}
+  .homeV4 .v4Nav .navLinks{gap:27px!important;font-size:9px!important}
+  .homeV4 .v4Nav .navActions{gap:21px!important;font-size:9px!important}
+  .homeV4 .v4Trial{height:36px!important;padding:0 19px!important;border-radius:7px!important}
+  .homeV4 .v4HeroInner{max-width:1024px!important;height:423px!important;padding:21px 38px 0!important;grid-template-columns:36.7% 63.3%!important}
+  .homeV4 .v4Copy{padding-top:18px!important}
+  .homeV4 .v4Eyebrow{margin-bottom:13px!important;font-size:7.6px!important;letter-spacing:1.45px!important}
+  .homeV4 .v4Copy h1{font-size:37.4px!important;line-height:.96!important;letter-spacing:-2.35px!important}
+  .homeV4 .v4Lead{margin-top:16px!important;font-size:11.1px!important;line-height:1.47!important}
+  .homeV4 .v4MainCta{margin-top:17px!important;width:218px!important;height:40px!important;border-radius:7px!important;font-size:11.8px!important}
+  .homeV4 .v4NoCard{width:218px!important;margin-top:7px!important;font-size:7px!important}
+  .homeV4 .v4Checks{gap:14px!important;margin-top:19px!important;font-size:5.9px!important}
+  .homeV4 .v4Visual{height:389px!important}
+  .homeV4 .v4Laptop{left:36px!important;top:0!important;width:485px!important;height:346px!important;border-width:5.5px!important;border-bottom-width:12px!important;border-radius:14px 14px 6px 6px!important}
+  .homeV4 .v4LaptopTop{height:39px!important;grid-template-columns:1fr 152px 17px 24px!important;gap:9px!important;padding:0 12px!important}
+  .homeV4 .v4LaptopTop .v4Search{height:22px!important;padding:5px 8px!important;font-size:5px!important}
+  .homeV4 .v4LaptopTop>b{width:22px!important;height:22px!important;font-size:5.5px!important}
+  .homeV4 .v4LaptopTop .productBrand strong{font-size:7px!important}
+  .homeV4 .v4LaptopTop .productBrandCrop{width:15px!important;height:15px!important;flex-basis:15px!important}
+  .homeV4 .v4LaptopTop .productBrandCrop img{width:30px!important;height:15px!important}
+  .homeV4 .v4LaptopBody{height:295px!important;grid-template-columns:87px 1fr 114px!important}
+  .homeV4 .v4LaptopBody aside{padding:12px 8px!important;gap:4.8px!important}
+  .homeV4 .v4LaptopBody aside strong{padding:5.5px!important;border-radius:4px!important;font-size:4.9px!important}
+  .homeV4 .v4Agenda{padding:12px 10px 7px!important}
+  .homeV4 .v4AgendaHead h3{font-size:12.5px!important;margin-bottom:6px!important}
+  .homeV4 .v4AgendaHead>div{gap:5px!important}
+  .homeV4 .v4AgendaHead button{padding:3.5px 5px!important;font-size:4.2px!important}.homeV4 .v4AgendaHead small{font-size:4.8px!important}
+  .homeV4 .v4Week{height:226px!important;margin-top:9px!important;grid-template-columns:26px repeat(3,1fr)!important;background:repeating-linear-gradient(to bottom,#26334a 0 1px,transparent 1px 24px)!important}
+  .homeV4 .v4Times{padding-top:17px!important;gap:14.4px!important}.homeV4 .v4Times i{font-size:4.2px!important}
+  .homeV4 .v4Day>b{height:17px!important;font-size:4.8px!important}.homeV4 .v4Day span{left:5px!important;right:5px!important;padding:4.8px!important;border-radius:3.5px!important;font-size:4.8px!important}
+  .homeV4 .v4Day .blue{top:26px!important}.homeV4 .v4Day .pink{top:61px!important}.homeV4 .v4Day .purple{top:96px!important}.homeV4 .v4Day .green{top:39px!important}.homeV4 .v4Day .second{top:74px!important}.homeV4 .v4Day .yellow{top:171px!important}.homeV4 .v4Day .third{top:135px!important}.homeV4 .v4Day .fourth{top:187px!important}
+  .homeV4 .v4Side{padding:12px 8px!important}.homeV4 .v4Side h4{font-size:6.2px!important;margin-bottom:7px!important}.homeV4 .v4MiniCal{font-size:4.2px!important;margin-bottom:12px!important}.homeV4 .v4Side p{margin-bottom:5.5px!important;padding:5px!important;border-left-width:2px!important;font-size:4.8px!important}
+  .homeV4 .v4Phone{right:-5px!important;top:89px!important;width:142px!important;height:281px!important;border-width:5.5px!important;border-radius:24px!important}
+  .homeV4 .v4PhoneHead{height:44px!important;padding:12px 8px 5px!important;grid-template-columns:24px 1fr 14px!important;font-size:5.5px!important}.homeV4 .v4PhoneHead b{font-size:6.2px!important}
+  .homeV4 .v4Wa{padding:8px 6px!important;gap:7px!important}.homeV4 .v4Wa p{padding:7px!important;border-radius:5.5px!important;font-size:5.5px!important}
+  .homeV4 .v4PhoneInput{margin:5.5px!important;padding:6px!important;font-size:4.8px!important}.homeV4 .v4PhoneInput b{width:15px!important;height:15px!important;margin-top:-3.5px!important}
+  .homeV4 .v4Features{max-width:1024px!important;height:90px!important;padding:14px 38px!important;gap:12px!important}
+  .homeV4 .v4Features article{height:62px!important;padding:12px 13px!important;grid-template-columns:33px 1fr!important;gap:8px!important;border-radius:7px!important}
+  .homeV4 .v4Features .fi{position:relative!important;display:block!important;width:27px!important;height:27px!important;font-size:20px!important;color:#1483ff!important}
+  .homeV4 .v4Features b{font-size:8.3px!important}.homeV4 .v4Features p{margin-top:4px!important;font-size:6.2px!important;line-height:1.4!important}
+  .homeV4 .v4Industries{max-width:948px!important;padding:15px 38px 26px!important}.homeV4 .v4Industries>p{font-size:7.6px!important}.homeV4 .v4Industries>div{margin-top:16px!important}.homeV4 .v4Industries span{gap:7px!important;font-size:14px!important}.homeV4 .v4Industries b{font-size:7px!important}
+}
+/* CSS-drawn feature icons avoid platform emoji rendering. */
+.homeV4 .calendarIcon{border:2px solid currentColor;border-radius:4px}
+.homeV4 .calendarIcon:before{content:"";position:absolute;left:3px;right:3px;top:7px;border-top:2px solid currentColor}
+.homeV4 .calendarIcon:after{content:"";position:absolute;left:5px;top:-4px;width:3px;height:7px;border-left:2px solid currentColor;border-right:2px solid currentColor}
+.homeV4 .peopleIcon:before{content:"";position:absolute;width:8px;height:8px;border:2px solid currentColor;border-radius:50%;left:8px;top:2px}
+.homeV4 .peopleIcon:after{content:"";position:absolute;width:19px;height:10px;border:2px solid currentColor;border-radius:12px 12px 4px 4px;left:3px;top:14px}
+.homeV4 .bellIcon:before{content:"";position:absolute;left:6px;top:3px;width:14px;height:17px;border:2px solid currentColor;border-radius:10px 10px 6px 6px}
+.homeV4 .bellIcon:after{content:"";position:absolute;left:11px;top:22px;width:6px;border-top:2px solid currentColor}
+.homeV4 .waIcon{display:grid!important;place-items:center!important;border:2px solid #18b96d;border-radius:50%;color:#18b96d!important;font-size:15px!important}
