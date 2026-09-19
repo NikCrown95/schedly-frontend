@@ -225,33 +225,3 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
   .homeV4 .v4Features{max-width:1024px!important;height:90px!important;margin:0 auto!important;padding:14px 38px!important;gap:12px!important}.homeV4 .v4Features article{height:62px!important;padding:12px 13px!important;grid-template-columns:33px 1fr!important;gap:8px!important}.homeV4 .v4Features .fi{width:27px!important;height:27px!important}.homeV4 .v4Features b{font-size:8.3px!important}.homeV4 .v4Features p{font-size:6.2px!important}
   .homeV4 .v4Industries{max-width:948px!important;margin:0 auto!important;padding:15px 38px 26px!important}.homeV4 .v4Industries>p{font-size:7.6px!important}.homeV4 .v4Industries>div{margin-top:16px!important}.homeV4 .v4Industries span{font-size:14px!important}.homeV4 .v4Industries b{font-size:7px!important}
 }
-
-
-/* Geometry checkpoint — 2026-09-19. Only macro layout + official logo crop. */
-@media (min-width:769px){
-  .homeV4 .v4Hero{overflow:hidden!important}
-  .homeV4 .v4Visual{position:relative!important;min-width:0!important;overflow:visible!important}
-  .homeV4 .v4Laptop{box-sizing:border-box!important;overflow:hidden!important}
-  .homeV4 .v4LaptopBody{min-width:0!important;overflow:hidden!important}
-  .homeV4 .v4Agenda,.homeV4 .v4Side{min-width:0!important;overflow:hidden!important}
-  .homeV4 .v4OfficialLogo{display:flex!important;align-items:center!important;width:205px!important;height:54px!important;overflow:visible!important}
-  .homeV4 .horizontalLogo{display:flex!important;align-items:center!important;gap:7px!important;width:205px!important;height:54px!important}
-  .homeV4 .horizontalLogoIcon{position:relative!important;display:block!important;width:50px!important;height:50px!important;overflow:hidden!important;flex:0 0 50px!important}
-  .homeV4 .horizontalLogoIcon img{position:absolute!important;width:177px!important;height:auto!important;max-width:none!important;left:-61px!important;top:-9px!important;transform:none!important}
-  .homeV4 .horizontalLogoWord{position:relative!important;display:block!important;width:148px!important;height:45px!important;overflow:hidden!important;flex:0 0 148px!important}
-  .homeV4 .horizontalLogoWord img{position:absolute!important;width:257px!important;height:auto!important;max-width:none!important;left:-49px!important;top:-75px!important;transform:none!important}
-}
-@media (min-width:769px) and (max-width:1180px){
-  .homeV4 .v4Hero{height:493px!important}
-  .homeV4 .v4Nav{height:70px!important;max-width:1024px!important;padding:0 38px!important;grid-template-columns:180px 1fr 225px!important}
-  .homeV4 .v4OfficialLogo{width:142px!important;height:42px!important;transform:none!important}
-  .homeV4 .horizontalLogo{width:142px!important;height:42px!important;gap:5px!important}
-  .homeV4 .horizontalLogoIcon{width:34px!important;height:34px!important;flex-basis:34px!important}
-  .homeV4 .horizontalLogoIcon img{width:121px!important;left:-42px!important;top:-6px!important}
-  .homeV4 .horizontalLogoWord{width:101px!important;height:31px!important;flex-basis:101px!important}
-  .homeV4 .horizontalLogoWord img{width:175px!important;left:-33px!important;top:-51px!important}
-  .homeV4 .v4HeroInner{height:423px!important;max-width:1024px!important;padding:21px 38px 0!important;grid-template-columns:348px minmax(0,1fr)!important}
-  .homeV4 .v4Visual{height:389px!important}
-  .homeV4 .v4Laptop{left:0!important;top:0!important;width:505px!important;height:346px!important}
-  .homeV4 .v4Phone{right:-5px!important;top:89px!important;width:142px!important;height:281px!important}
-}
