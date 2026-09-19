@@ -276,3 +276,42 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
  .homeV4 .v4PhoneHead{height:46px!important;padding:12px 8px 6px!important;grid-template-columns:25px 1fr 14px!important;font-size:5.5px!important}.homeV4 .v4PhoneHead b{font-size:6.5px!important}
  .homeV4 .v4Wa{padding:8px 6px!important;gap:7px!important}.homeV4 .v4Wa p{padding:7px!important;font-size:5.8px!important}.homeV4 .v4PhoneInput{margin:6px!important;padding:6px!important;font-size:5px!important}
 }
+
+
+/* 2026-09-19 measured correction against the latest 1536×1067 Safari capture.
+   The browser capture is landscape tablet, so this intentionally overrides the
+   previous reduced tablet composition instead of shrinking the desktop artwork. */
+.homeV4 .horizontalLogoIcon{width:56px!important;height:50px!important;flex:0 0 56px!important}
+.homeV4 .horizontalLogoIcon img{width:205px!important;left:-72px!important;top:-14px!important}
+.homeV4 .horizontalLogoWord{width:132px!important;height:42px!important;flex:0 0 132px!important}
+.homeV4 .horizontalLogoWord img{width:205px!important;left:-42px!important;top:-60px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoIcon{width:30px!important;height:27px!important;flex-basis:30px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoIcon img{width:110px!important;left:-39px!important;top:-8px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoWord{width:72px!important;height:24px!important;flex-basis:72px!important}
+.homeV4 .horizontalLogo.compact .horizontalLogoWord img{width:110px!important;left:-23px!important;top:-32px!important}
+
+@media (min-width:769px) and (max-width:1180px){
+ .homeV4 .v4Hero{height:715px!important}
+ .homeV4 .v4Nav{height:104px!important;max-width:none!important;padding:0 38px!important;grid-template-columns:190px 1fr 245px!important}
+ .homeV4 .v4OfficialLogo{width:190px!important;height:58px!important;overflow:visible!important}
+ .homeV4 .v4OfficialLogo .horizontalLogo{transform:none!important;width:190px!important}
+ .homeV4 .v4Nav .navLinks{gap:27px!important;font-size:10px!important}
+ .homeV4 .v4Nav .navActions{gap:22px!important;font-size:10px!important}
+ .homeV4 .v4Trial{height:42px!important;padding:0 23px!important;font-size:11px!important}
+ .homeV4 .v4HeroInner{width:100%!important;max-width:none!important;height:611px!important;padding:26px 38px 0!important;grid-template-columns:350px minmax(0,1fr)!important}
+ .homeV4 .v4Copy{padding-top:27px!important}
+ .homeV4 .v4Eyebrow{font-size:8px!important;letter-spacing:1.5px!important;margin-bottom:14px!important}
+ .homeV4 .v4Copy h1{font-size:38px!important;line-height:.96!important;letter-spacing:-2.4px!important}
+ .homeV4 .v4Lead{font-size:11.5px!important;line-height:1.47!important;margin-top:17px!important}
+ .homeV4 .v4MainCta{width:220px!important;height:41px!important;margin-top:18px!important;font-size:12px!important}
+ .homeV4 .v4NoCard{width:220px!important;font-size:7px!important;margin-top:8px!important}
+ .homeV4 .v4Checks{gap:14px!important;margin-top:20px!important;font-size:6px!important}
+ .homeV4 .v4Visual{height:560px!important}
+ .homeV4 .v4Laptop{left:0!important;top:-1px!important;width:510px!important;height:382px!important}
+ .homeV4 .v4Phone{right:0!important;top:88px!important;width:148px!important;height:309px!important}
+ .homeV4 .v4Features{width:100%!important;max-width:none!important;height:128px!important;padding:20px 38px!important;gap:14px!important}
+ .homeV4 .v4Features article{height:90px!important;padding:17px 15px!important;grid-template-columns:40px 1fr!important;gap:10px!important}
+ .homeV4 .v4Features .fi{width:30px!important;height:30px!important}.homeV4 .v4Features b{font-size:9px!important}.homeV4 .v4Features p{font-size:7px!important}
+ .homeV4 .v4Industries{width:100%!important;max-width:none!important;padding:22px 48px 38px!important}
+ .homeV4 .v4Industries>p{font-size:10px!important}.homeV4 .v4Industries>div{margin-top:23px!important}.homeV4 .v4Industries span{font-size:18px!important}.homeV4 .v4Industries b{font-size:9px!important}
+}
