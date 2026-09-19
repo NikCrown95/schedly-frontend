@@ -61,3 +61,20 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
  .homeV4 .v4LogoWord{width:100px;height:29px;flex-basis:100px}
  .homeV4 .v4LogoWord img{width:130px;left:-15px;top:-53px}
 }
+
+/* Reference corrections: preserve the supplied artwork but clip its rectangular matte. */
+.homeV4 .v4HeroArtwork{
+  clip-path:polygon(3% 2%,81% 2%,81% 22%,98.5% 22%,98.5% 99%,75% 99%,75% 95%,3% 95%);
+}
+.homeV4 .v4Features .fi{
+  width:42px!important;height:42px!important;fill:none!important;stroke:#1489f7!important;
+  stroke-width:3!important;stroke-linecap:round!important;stroke-linejoin:round!important;
+}
+.homeV4 .v4Features .waSvg{stroke:#12bf70!important}
+.homeV4 .v4Features article{grid-template-columns:58px 1fr!important}
+.homeV4 .v4LogoWord img{top:-58px!important}
+@media (min-width:769px) and (max-width:1180px){
+  .homeV4 .v4Features .fi{width:29px!important;height:29px!important}
+  .homeV4 .v4Features article{grid-template-columns:39px 1fr!important}
+  .homeV4 .v4LogoWord img{top:-40px!important}
+}
