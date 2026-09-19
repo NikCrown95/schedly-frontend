@@ -225,3 +225,29 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
   .homeV4 .v4Features{max-width:1024px!important;height:90px!important;margin:0 auto!important;padding:14px 38px!important;gap:12px!important}.homeV4 .v4Features article{height:62px!important;padding:12px 13px!important;grid-template-columns:33px 1fr!important;gap:8px!important}.homeV4 .v4Features .fi{width:27px!important;height:27px!important}.homeV4 .v4Features b{font-size:8.3px!important}.homeV4 .v4Features p{font-size:6.2px!important}
   .homeV4 .v4Industries{max-width:948px!important;margin:0 auto!important;padding:15px 38px 26px!important}.homeV4 .v4Industries>p{font-size:7.6px!important}.homeV4 .v4Industries>div{margin-top:16px!important}.homeV4 .v4Industries span{font-size:14px!important}.homeV4 .v4Industries b{font-size:7px!important}
 }
+
+
+/* Static reference artwork: laptop + phone are one marketing asset.
+   Internal UI can no longer change hero geometry. */
+@media (min-width:769px){
+  .homeV4 .v4Visual{position:relative!important;display:flex!important;align-items:flex-start!important;justify-content:flex-end!important;min-width:0!important;overflow:visible!important}
+  .homeV4 .v4HeroArtwork{display:block!important;width:100%!important;max-width:950px!important;height:auto!important;object-fit:contain!important;object-position:right top!important;margin:0!important}
+  .homeV4 .v4OfficialLogo{display:flex!important;align-items:center!important;gap:7px!important;overflow:visible!important;position:relative!important}
+  .homeV4 .v4LogoIcon{display:block!important;position:relative!important;width:50px!important;height:50px!important;overflow:hidden!important;flex:0 0 50px!important}
+  .homeV4 .v4LogoIcon img{display:block!important;position:absolute!important;width:91px!important;max-width:none!important;height:auto!important;left:-23px!important;top:-5px!important;transform:none!important}
+  .homeV4 .v4LogoWord{display:block!important;position:relative!important;width:139px!important;height:45px!important;overflow:hidden!important;flex:0 0 139px!important}
+  .homeV4 .v4LogoWord img{display:block!important;position:absolute!important;width:181px!important;max-width:none!important;height:auto!important;left:-21px!important;top:-74px!important;transform:none!important}
+}
+@media (min-width:1181px){
+  .homeV4 .v4Visual{height:560px!important;padding-top:0!important}
+  .homeV4 .v4HeroArtwork{width:min(950px,100%)!important}
+}
+@media (min-width:769px) and (max-width:1180px){
+  .homeV4 .v4Visual{height:389px!important;padding-top:0!important}
+  .homeV4 .v4HeroArtwork{width:100%!important;max-height:389px!important}
+  .homeV4 .v4OfficialLogo{width:142px!important;height:42px!important;gap:5px!important}
+  .homeV4 .v4LogoIcon{width:34px!important;height:34px!important;flex-basis:34px!important}
+  .homeV4 .v4LogoIcon img{width:62px!important;left:-16px!important;top:-3px!important}
+  .homeV4 .v4LogoWord{width:96px!important;height:31px!important;flex-basis:96px!important}
+  .homeV4 .v4LogoWord img{width:125px!important;left:-15px!important;top:-51px!important}
+}
