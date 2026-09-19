@@ -42,7 +42,14 @@ export const PhoneArt=({home=false}:{home?:boolean})=> home?
   <div className="mBookingToast"><b>Nuova prenotazione</b><small>Lun 10 Giu, 14:00</small></div>
 </div>:
 <div className="mPhoneArt" aria-hidden="true">
-  <div className="mPhoneShell"><div className="mChatScreen"><div className="mChatHead"><WhatsAppIcon/><span>Schedly</span></div></div></div>
-  <div className="mChatFloat">Ciao! Posso prenotare un appuntamento?</div>
-  <div className="mChatFloat second">Certo! Ecco le disponibilità per questa settimana:<div className="mSlots"><span>Lun<br/>10:00</span><span>Mar<br/>14:00</span><span>Mer<br/>16:00</span></div></div>
+  <div className="mPhoneShell mChatPhone">
+    <div className="mChatScreen">
+      <div className="mChatHead"><WhatsAppIcon/><span>Schedly</span><b>online</b></div>
+      <div className="mChatBody">
+        <div className="mBubble customer">Ciao! Posso prenotare un appuntamento?<small>10:24 ✓✓</small></div>
+        <div className="mBubble schedly">Certo! Ecco le disponibilità per questa settimana:<div className="mSlots"><span>Lun<br/>10:00</span><span>Mar<br/>14:00</span><span>Mer<br/>16:00</span></div><small>10:25</small></div>
+      </div>
+      <div className="mChatComposer">Scrivi un messaggio… <span>➤</span></div>
+    </div>
+  </div>
 </div>;
