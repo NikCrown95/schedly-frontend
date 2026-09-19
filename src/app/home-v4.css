@@ -141,3 +141,22 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
     background-size:164px 82px!important;background-position:-34px -51px!important;
   }
 }
+
+/* Safari/iPad final logo renderer: real IMG elements, clipped from official source. */
+.homeV4 .v4OfficialIcon,.homeV4 .v4OfficialWord{
+  position:relative!important;overflow:hidden!important;background:none!important;
+}
+.homeV4 .v4OfficialIcon img,.homeV4 .v4OfficialWord img{
+  display:block!important;position:absolute!important;max-width:none!important;
+  opacity:1!important;visibility:visible!important;transform:none!important;
+}
+.homeV4 .v4OfficialIcon img{
+  width:197px!important;height:98.5px!important;left:-70px!important;top:-14px!important;
+}
+.homeV4 .v4OfficialWord img{
+  width:238px!important;height:119px!important;left:-47px!important;top:-72px!important;
+}
+@media (min-width:769px) and (max-width:1180px){
+ .homeV4 .v4OfficialIcon img{width:136px!important;height:68px!important;left:-48px!important;top:-10px!important}
+ .homeV4 .v4OfficialWord img{width:164px!important;height:82px!important;left:-32px!important;top:-50px!important}
+}
