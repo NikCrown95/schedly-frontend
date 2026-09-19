@@ -147,3 +147,19 @@
  .mobileSignupPrompt{margin:0;text-align:center;color:#7d899b;font-size:10px;line-height:1.45}
  .mobileSignupPrompt a{color:#1678e9;font-weight:850;text-decoration:none}
 }
+
+/* Schedly vs Schedly AI clarity */
+@media(max-width:768px){
+ .mPlanCompare{margin:0 -28px;padding:38px 28px 42px;background:#071839;color:#fff}
+ .mPlanCompare .mEyebrow{color:#89b9ff;margin-top:0!important}
+ .mPlanCompare h2{font-size:29px;line-height:1.03;letter-spacing:-1.5px;margin:0 0 20px}
+ .mPlanCompare h2 .mBlue{color:#72a9ff}
+ .mCompareGrid{display:grid;gap:12px}
+ .mCompareGrid article{padding:18px;border:1px solid rgba(255,255,255,.13);border-radius:17px;background:rgba(255,255,255,.07)}
+ .mCompareGrid article.ai{background:linear-gradient(145deg,rgba(24,133,248,.22),rgba(116,68,238,.18));border-color:rgba(111,158,255,.42)}
+ .mCompareGrid span{display:inline-block;margin-bottom:9px;font-size:8px;font-weight:900;letter-spacing:1.1px;color:#91baff;text-transform:uppercase}
+ .mCompareGrid b{display:block;font-size:15px;margin-bottom:7px}
+ .mCompareGrid p{margin:0 0 13px;color:#cbd6ea;font-size:10px;line-height:1.5}
+ .mCompareGrid a{color:#fff;font-size:10px;font-weight:850;text-decoration:none}
+}
+@media(max-width:370px){.mPlanCompare{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px}}
