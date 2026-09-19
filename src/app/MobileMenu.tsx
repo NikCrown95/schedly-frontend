@@ -39,8 +39,8 @@ export default function MobileMenu() {
           ))}
         </nav>
         <div className="mobileMenuActions">
+          <a className="button" href="/registrati" onClick={() => setOpen(false)}>Registrati →</a>
           <a href="/login" onClick={() => setOpen(false)}>Accedi</a>
-          <a className="button" href="/demo" onClick={() => setOpen(false)}>Prova gratis 7 giorni →</a>
         </div>
       </div>
     </>
