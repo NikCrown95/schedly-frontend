@@ -46,28 +46,3 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
   .homeV4 .v4Industries{max-width:950px;padding:18px 48px 26px}.homeV4 .v4Industries>p{font-size:9.5px}.homeV4 .v4Industries>div{margin-top:18px}.homeV4 .v4Industries span{gap:7px;font-size:14px}.homeV4 .v4Industries b{font-size:7px}
 }
 @media(max-width:768px){.homeV4{display:none!important}}
-
-/* Retina sharpness pass: preserve geometry, improve raster rendering */
-.homeV4 .v4OfficialLogo{position:relative;overflow:visible}
-.homeV4 .v4OfficialLogo>img{display:none!important}
-.homeV4 .v4OfficialLogo::before,
-.homeV4 .v4OfficialLogo::after{content:"";display:block;position:absolute;background-image:url("/schedly-logo.png");background-repeat:no-repeat}
-.homeV4 .v4OfficialLogo::before{
-  left:0;top:50%;width:47px;height:43px;transform:translateY(-50%);
-  background-size:151px 86px;background-position:-52px -9px;
-}
-.homeV4 .v4OfficialLogo::after{
-  left:54px;top:50%;width:143px;height:38px;transform:translateY(-50%);
-  background-size:244px 139px;background-position:-51px -86px;
-}
-.homeV4 .v4HeroArtwork{
-  image-rendering:auto;
-  -webkit-font-smoothing:antialiased;
-  backface-visibility:hidden;
-  transform:translateZ(0);
-  filter:contrast(1.045) saturate(1.025);
-}
-@media (min-width:769px) and (max-width:1180px){
- .homeV4 .v4OfficialLogo::before{width:32px;height:30px;background-size:103px 59px;background-position:-36px -6px}
- .homeV4 .v4OfficialLogo::after{left:37px;width:98px;height:27px;background-size:167px 95px;background-position:-35px -59px}
-}
