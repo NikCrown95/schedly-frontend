@@ -7,7 +7,6 @@ const items = [
   { href: "/prodotto", label: "Prodotto" },
   { href: "/come-funziona", label: "Come funziona" },
   { href: "/prezzi", label: "Prezzi" },
-  { href: "/demo", label: "Prova gratuita" },
   { href: "/faq", label: "FAQ" },
 ];
 
