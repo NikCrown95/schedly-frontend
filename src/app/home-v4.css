@@ -315,3 +315,49 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
  .homeV4 .v4Industries{width:100%!important;max-width:none!important;padding:22px 48px 38px!important}
  .homeV4 .v4Industries>p{font-size:10px!important}.homeV4 .v4Industries>div{margin-top:23px!important}.homeV4 .v4Industries span{font-size:18px!important}.homeV4 .v4Industries b{font-size:9px!important}
 }
+
+
+/* Reference convergence pass — fixes root causes visible in IMG_0405:
+   1) nested logo images were being overridden by .v4OfficialLogo img;
+   2) tablet breakpoint changed the composition instead of preserving the reference;
+   3) laptop lacked the visible aluminium base and phone overlap. */
+.homeV4 .v4OfficialLogo .horizontalLogoIcon img{
+ position:absolute!important;width:205px!important;height:auto!important;max-width:none!important;
+ left:-72px!important;top:-14px!important;transform:none!important
+}
+.homeV4 .v4OfficialLogo .horizontalLogoWord img{
+ position:absolute!important;width:205px!important;height:auto!important;max-width:none!important;
+ left:-42px!important;top:-60px!important;transform:none!important
+}
+.homeV4 .v4Laptop{overflow:visible!important}
+.homeV4 .v4LaptopTop,.homeV4 .v4LaptopBody{overflow:hidden!important}
+.homeV4 .v4Laptop:before{
+ content:""!important;position:absolute!important;z-index:20!important;
+ left:-7%!important;right:-7%!important;bottom:-25px!important;height:19px!important;
+ border-radius:2px 2px 14px 14px!important;
+ background:linear-gradient(180deg,#dce3eb 0%,#9ba8b8 38%,#566477 63%,#d9e0e8 100%)!important;
+ box-shadow:0 9px 13px rgba(13,27,48,.24)!important
+}
+.homeV4 .v4Laptop:after{
+ content:""!important;z-index:21!important;left:39%!important;right:39%!important;
+ bottom:-20px!important;height:5px!important;border-radius:0 0 8px 8px!important;
+ background:#738196!important
+}
+@media (min-width:769px) and (max-width:1180px){
+ .homeV4 .v4Nav{padding-left:37px!important;padding-right:37px!important;grid-template-columns:190px 1fr 245px!important}
+ .homeV4 .v4HeroInner{padding-left:37px!important;padding-right:37px!important;grid-template-columns:390px minmax(0,1fr)!important}
+ .homeV4 .v4Copy h1{font-size:38px!important}
+ .homeV4 .v4Visual{overflow:visible!important}
+ .homeV4 .v4Laptop{left:0!important;top:-1px!important;width:585px!important;height:421px!important}
+ .homeV4 .v4LaptopTop{height:47px!important;grid-template-columns:1fr 174px 20px 27px!important}
+ .homeV4 .v4LaptopBody{height:360px!important;grid-template-columns:100px 1fr 132px!important}
+ .homeV4 .v4Agenda{padding:13px 11px 8px!important}
+ .homeV4 .v4Week{height:282px!important;grid-template-columns:29px repeat(3,1fr)!important;background:repeating-linear-gradient(to bottom,#26334a 0 1px,transparent 1px 27px)!important}
+ .homeV4 .v4Times{padding-top:19px!important;gap:15.5px!important}
+ .homeV4 .v4Day .blue{top:30px!important}.homeV4 .v4Day .pink{top:69px!important}.homeV4 .v4Day .purple{top:108px!important}
+ .homeV4 .v4Day .green{top:43px!important}.homeV4 .v4Day .second{top:83px!important}.homeV4 .v4Day .yellow{top:191px!important}.homeV4 .v4Day .third{top:151px!important}.homeV4 .v4Day .fourth{top:208px!important}
+ .homeV4 .v4Phone{right:-18px!important;top:95px!important;width:172px!important;height:344px!important;border-width:6px!important;border-radius:27px!important}
+ .homeV4 .v4PhoneHead{height:51px!important}.homeV4 .v4Wa p{font-size:6.5px!important}
+ .homeV4 .v4OfficialLogo{width:190px!important;height:58px!important;overflow:visible!important}
+ .homeV4 .v4OfficialLogo .horizontalLogo{transform:scale(.78)!important;transform-origin:left center!important;width:205px!important}
+}
