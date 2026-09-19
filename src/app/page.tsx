@@ -18,4 +18,4 @@ export default function Home(){return <><main className="mobileMock mHomePage"><
 </div></div></section>
 <section className="v4Features"><article><i>▣</i><div><b>Prenotazioni online</b><p>I clienti prenotano quando vogliono, anche fuori orario.</p></div></article><article><i>♙</i><div><b>Agenda sempre aggiornata</b><p>Ogni prenotazione compare direttamente nella tua agenda.</p></div></article><article><i className="wa">◉</i><div><b>WhatsApp AI opzionale</b><p>Un assistente che risponde e gestisce le prenotazioni.</p></div></article><article><i>♧</i><div><b>Promemoria automatici</b><p>Meno assenze, più tempo per la tua attività.</p></div></article></section>
 <section className="v4Industries"><p>PENSATO PER CHI LAVORA SU APPUNTAMENTO</p><div><span>✂ <b>Parrucchieri e barbieri</b></span><span>✿ <b>Centri estetici</b></span><span>◫ <b>Personal trainer</b></span><span>♧ <b>Studi medici e dentistici</b></span><span>✎ <b>Nail artist</b></span><span>••• <b>e molti altri...</b></span></div></section>
-</main></>}}
+</main></>}
