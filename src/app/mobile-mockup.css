@@ -163,3 +163,44 @@
  .mCompareGrid a{color:#fff;font-size:10px;font-weight:850;text-decoration:none}
 }
 @media(max-width:370px){.mPlanCompare{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px}}
+
+/* Approved mobile fixes: plan cards + WhatsApp chat inside phone */
+@media(max-width:768px){
+ .mPlanCompare{margin:0 -28px;padding:40px 28px 42px;background:linear-gradient(180deg,#f8fbff,#fff);color:var(--m-navy);border-top:1px solid #e7edf6}
+ .mPlanCompare .mEyebrow{color:#61728d;margin:0 0 13px!important}
+ .mPlanCompare h2{font-size:29px;line-height:1.03;letter-spacing:-1.55px;margin:0 0 22px;color:var(--m-navy)}
+ .mPlanCompare h2 .mBlue{color:var(--m-blue)}
+ .mCompareGrid{display:grid;gap:14px}
+ .mCompareGrid .mCompareCard{display:grid!important;grid-template-columns:48px 1fr!important;gap:14px!important;align-items:start!important;padding:18px!important;border:1px solid #dce6f2!important;border-radius:18px!important;background:#fff!important;box-shadow:0 10px 28px rgba(27,55,105,.07)!important;color:var(--m-navy)!important}
+ .mCompareGrid .mCompareCard.ai{border-color:#b8ccff!important;background:linear-gradient(145deg,#fff,#f7f4ff)!important}
+ .mCompareIcon{width:48px;height:48px;border-radius:13px;display:grid;place-items:center}
+ .mCompareIcon svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .mCompareCopy{min-width:0}
+ .mCompareCopy small{display:block!important;margin:0 0 7px!important;font-size:8px!important;line-height:1!important;letter-spacing:1.25px!important;color:#66758d!important;font-weight:900!important}
+ .mCompareCopy b{display:block!important;margin:0 0 7px!important;font-size:15px!important;line-height:1.2!important;color:var(--m-navy)!important}
+ .mCompareCopy p{margin:0!important;color:var(--m-muted)!important;font-size:11px!important;line-height:1.5!important}
+ .mCompareCard>a{grid-column:1/-1!important;display:block!important;margin-top:2px!important;padding-top:14px!important;border-top:1px solid #e7edf5!important;color:var(--m-blue)!important;font-size:12px!important;font-weight:850!important;text-decoration:none!important}
+ .mCompareCard.ai>a{color:#5f46ee!important}
+
+ .mHowPage .mPhoneArt{height:330px!important;margin:20px 0 22px!important;padding:0!important;background:linear-gradient(145deg,#f4f8ff,#eef4ff)!important;overflow:hidden!important}
+ .mHowPage .mPhoneShell.mChatPhone{width:205px!important;height:355px!important;left:50%!important;top:22px!important;transform:translateX(-50%) rotate(-5deg)!important;border-width:7px!important;border-radius:31px!important}
+ .mHowPage .mChatScreen{position:absolute!important;inset:27px 7px 7px!important;border-radius:17px!important;background:#f0f2ef!important;overflow:hidden!important}
+ .mHowPage .mChatHead{height:42px!important;padding:0 10px!important;display:grid!important;grid-template-columns:18px 1fr auto!important;gap:7px!important;align-items:center!important;background:#fff!important;border-bottom:1px solid #e5e8e6!important;color:#159b5a!important;font-size:8px!important;font-weight:850!important}
+ .mHowPage .mChatHead svg{width:17px!important;height:17px!important}
+ .mHowPage .mChatHead b{font-size:6px!important;color:#8a96a5!important;font-weight:600!important}
+ .mChatBody{display:flex;flex-direction:column;gap:9px;padding:12px 9px 44px}
+ .mBubble{max-width:82%;padding:9px 10px 15px;border-radius:10px;font-size:8px;line-height:1.35;position:relative;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+ .mBubble.customer{align-self:flex-end;background:#dcf8c6;color:#20312a}
+ .mBubble.schedly{align-self:flex-start;background:#fff;color:#1f2937}
+ .mBubble small{position:absolute;right:7px;bottom:4px;font-size:5px;color:#8d9999}
+ .mBubble.customer small{color:#5d9879}
+ .mHowPage .mSlots{display:flex!important;gap:4px!important;margin-top:7px!important}
+ .mHowPage .mSlots span{padding:6px 5px!important;background:#eaf4ff!important;border-radius:7px!important;color:#1678e9!important;font-size:6px!important;line-height:1.15!important;font-weight:850!important;text-align:center!important;min-width:32px!important}
+ .mChatComposer{position:absolute;left:7px;right:7px;bottom:7px;height:30px;border-radius:15px;background:#fff;color:#9aa5b1;font-size:6px;display:flex;align-items:center;justify-content:space-between;padding:0 10px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+ .mChatComposer span{color:#1682f8;font-size:10px}
+ .mHowPage .mChatFloat{display:none!important}
+}
+@media(max-width:370px){
+ .mPlanCompare{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px}
+ .mHowPage .mPhoneShell.mChatPhone{width:190px!important;height:335px!important}
+}
