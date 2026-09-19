@@ -66,7 +66,7 @@ export default function Home(){
         <h1>Tutti i tuoi appuntamenti. <em>Un solo posto.</em></h1>
         <p>Schedly organizza agenda, clienti, servizi e disponibilità. I tuoi clienti prenotano online e, con Schedly AI, anche su WhatsApp.</p>
         <a className="shButton" href="/demo">Prova gratis 7 giorni →</a>
-        <div className="shMicro"><span><Icon name="check"/> Nessuna carta di credito</span><span><Icon name="clock"/> Attivazione guidata</span></div>
+        <div className="shMicro"><span><Icon name="check"/> Nessuna carta di credito</span><span><Icon name="clock"/> Prova Schedly e Schedly AI</span></div>
       </div>
       <div className="shHeroVisual" aria-label="Anteprima della dashboard Schedly">
         <DashboardMock/>
@@ -122,7 +122,7 @@ export default function Home(){
 
     <section className="shProof shSection">
       <div className="shSectionHead"><span className="shEyebrow">FIDUCIA PRIMA DELLE PROMESSE</span><h2>Provalo sulla tua attività prima di decidere.</h2><p>Finché non avremo testimonianze e numeri verificabili, preferiamo mostrarti il prodotto e lasciarti provarlo.</p></div>
-      <div className="shProofGrid"><article><b>7 giorni</b><p>di prova gratuita</p></article><article><b>0 €</b><p>di carta richiesta per iniziare</p></article><article><b>Supporto</b><p>incluso nel servizio</p></article></div>
+      <div className="shProofGrid"><article><b>7 giorni</b><p>per provare Schedly e Schedly AI</p></article><article><b>0 €</b><p>di carta richiesta per iniziare</p></article><article><b>Supporto</b><p>in italiano tramite chatbot</p></article></div>
     </section>
 
     <section className="shPricing shSection">
@@ -131,15 +131,15 @@ export default function Home(){
         <article><span>Schedly</span><b>€29,90<small>/mese</small></b><p>Gestionale, agenda, clienti, servizi, booking online e promemoria.</p></article>
         <article className="featured"><span>Schedly AI</span><b>€49,90<small>/mese</small></b><p>Tutto Schedly, più assistente AI su WhatsApp.</p></article>
       </div>
-      <div className="shPriceFoot"><span>+ €99 configurazione iniziale una tantum</span><a href="/prezzi">Vedi tutti i dettagli →</a></div>
+      <div className="shPriceFoot"><span>+ €99 configurazione iniziale, una sola volta</span><a href="/prezzi">Vedi tutti i dettagli →</a></div>
     </section>
 
     <section className="shTrust shSection">
       <div className="shSectionHead"><span className="shEyebrow">PIÙ CHIAREZZA, MENO DUBBI</span><h2>Sai cosa succede prima di iniziare.</h2></div>
       <div className="shTrustGrid">
-        <article><span className="shIcon"><Icon name="shield"/></span><h3>Nessuna carta per la prova</h3><p>Puoi vedere come funziona Schedly prima di scegliere un piano.</p></article>
-        <article><span className="shIcon"><Icon name="support"/></span><h3>Supporto incluso</h3><p>Il piano Schedly include supporto; Schedly AI prevede supporto prioritario.</p></article>
-        <article><span className="shIcon"><Icon name="spark"/></span><h3>Configurazione guidata</h3><p>Servizi, orari e impostazioni vengono configurati con un percorso dedicato.</p></article>
+        <article><span className="shIcon"><Icon name="message"/></span><h3>WhatsApp ufficiale</h3><p>Schedly AI usa la piattaforma ufficiale WhatsApp Business di Meta per gestire le conversazioni.</p></article>
+        <article><span className="shIcon"><Icon name="clock"/></span><h3>Cancelli quando vuoi</h3><p>Se annulli dopo il pagamento, continui a usare Schedly fino alla fine del periodo mensile già pagato.</p></article>
+        <article><span className="shIcon"><Icon name="support"/></span><h3>Supporto in italiano</h3><p>Hai a disposizione un chatbot di assistenza in italiano per le richieste di supporto.</p></article>
       </div>
     </section>
 
@@ -148,9 +148,9 @@ export default function Home(){
       <div className="shFaqList">
         <details><summary>Schedly è un gestionale o un assistente WhatsApp?</summary><p>Schedly è prima di tutto il gestionale per agenda, clienti, servizi e prenotazioni. Schedly AI aggiunge l’assistente WhatsApp.</p></details>
         <details><summary>I clienti possono prenotare senza WhatsApp?</summary><p>Sì. Possono usare la tua pagina di prenotazione online, scegliere il servizio e un orario disponibile.</p></details>
-        <details><summary>Come funziona la prova gratuita?</summary><p>Dalla Home puoi avviare una prova gratuita di 7 giorni. Non serve una carta di credito ed è disponibile una sola volta per attività.</p></details>
+        <details><summary>Come funziona la prova gratuita?</summary><p>Dalla Home puoi avviare una prova gratuita di 7 giorni e provare sia Schedly sia Schedly AI. Non serve una carta di credito ed è disponibile una sola volta per attività.</p></details>
         <details><summary>WhatsApp AI è incluso nel piano base?</summary><p>No. L’automazione WhatsApp è inclusa nel piano Schedly AI. Il piano Schedly comprende il gestionale e il booking online.</p></details>
-        <details><summary>Cosa comprende la configurazione iniziale?</summary><p>La configurazione iniziale copre servizi, orari, disponibilità e impostazioni principali. Con Schedly AI viene configurato anche il flusso WhatsApp.</p></details>
+        <details><summary>Cosa comprende la configurazione iniziale?</summary><p>La configurazione iniziale costa €99 una sola volta e copre servizi, orari, disponibilità e impostazioni principali. Con Schedly AI viene configurato anche il flusso WhatsApp.</p></details><details><summary>Posso cancellare l’abbonamento?</summary><p>Sì. Se annulli dopo il pagamento, l’accesso resta attivo fino alla fine del periodo mensile già pagato.</p></details>
       </div>
     </section>
 
