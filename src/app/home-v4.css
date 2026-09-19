@@ -46,3 +46,18 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
   .homeV4 .v4Industries{max-width:950px;padding:18px 48px 26px}.homeV4 .v4Industries>p{font-size:9.5px}.homeV4 .v4Industries>div{margin-top:18px}.homeV4 .v4Industries span{gap:7px;font-size:14px}.homeV4 .v4Industries b{font-size:7px}
 }
 @media(max-width:768px){.homeV4{display:none!important}}
+
+/* Official logo: crop only the supplied 1774x887 source; no rasterized derivative. */
+.homeV4 .v4OfficialLogo{display:flex;align-items:center;gap:7px;overflow:visible}
+.homeV4 .v4OfficialLogo>span{position:relative;display:block;overflow:hidden}
+.homeV4 .v4LogoIcon{width:48px;height:48px;flex:0 0 48px}
+.homeV4 .v4LogoIcon img{position:absolute;width:96px;height:auto;max-width:none;left:-24px;top:-5px}
+.homeV4 .v4LogoWord{width:145px;height:42px;flex:0 0 145px}
+.homeV4 .v4LogoWord img{position:absolute;width:188px;height:auto;max-width:none;left:-22px;top:-77px}
+@media (min-width:769px) and (max-width:1180px){
+ .homeV4 .v4OfficialLogo{gap:5px}
+ .homeV4 .v4LogoIcon{width:33px;height:33px;flex-basis:33px}
+ .homeV4 .v4LogoIcon img{width:66px;left:-16.5px;top:-3.5px}
+ .homeV4 .v4LogoWord{width:100px;height:29px;flex-basis:100px}
+ .homeV4 .v4LogoWord img{width:130px;left:-15px;top:-53px}
+}
