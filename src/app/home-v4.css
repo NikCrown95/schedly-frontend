@@ -361,3 +361,40 @@ linear-gradient(180deg,#fff 0%,#fbfdff 66%,#eef7ff 100%)}
  .homeV4 .v4OfficialLogo{width:190px!important;height:58px!important;overflow:visible!important}
  .homeV4 .v4OfficialLogo .horizontalLogo{transform:scale(.78)!important;transform-origin:left center!important;width:205px!important}
 }
+
+
+/* Measured convergence from IMG_0406 vs supplied 1506×1045 reference.
+   Safari capture is a 1024 CSS-px landscape viewport at ~1.5 DPR. */
+.homeV4 .v4OfficialLogo{display:flex!important;align-items:center!important;overflow:visible!important}
+.homeV4 .v4OfficialLogo .v4NavLogoAsset{
+ display:block!important;position:static!important;width:205px!important;height:auto!important;
+ max-width:none!important;opacity:1!important;visibility:visible!important;transform:none!important
+}
+@media (min-width:769px) and (max-width:1180px){
+ .homeV4 .v4Hero{height:477px!important}
+ .homeV4 .v4Nav{height:92px!important;padding:0 37px!important;grid-template-columns:250px 1fr 245px!important}
+ .homeV4 .v4OfficialLogo{width:170px!important;height:70px!important}
+ .homeV4 .v4OfficialLogo .v4NavLogoAsset{width:170px!important}
+ .homeV4 .v4Nav .navLinks{gap:26px!important;font-size:10px!important}
+ .homeV4 .v4HeroInner{height:385px!important;padding:12px 37px 0!important;grid-template-columns:390px minmax(0,1fr)!important}
+ .homeV4 .v4Copy{padding-top:25px!important}
+ .homeV4 .v4Eyebrow{font-size:8.5px!important;letter-spacing:1.65px!important;margin-bottom:16px!important}
+ .homeV4 .v4Copy h1{font-size:49px!important;line-height:.96!important;letter-spacing:-3.1px!important}
+ .homeV4 .v4Lead{font-size:14px!important;line-height:1.47!important;margin-top:20px!important}
+ .homeV4 .v4MainCta{width:255px!important;height:47px!important;margin-top:20px!important;font-size:14px!important}
+ .homeV4 .v4NoCard{width:255px!important;font-size:8px!important;margin-top:8px!important}
+ .homeV4 .v4Checks{gap:15px!important;margin-top:22px!important;font-size:6.5px!important}
+ .homeV4 .v4Visual{height:385px!important}
+ .homeV4 .v4Laptop{left:36px!important;top:-7px!important;width:548px!important;height:385px!important;border-width:6px!important;border-bottom-width:13px!important;border-radius:16px 16px 7px 7px!important}
+ .homeV4 .v4LaptopTop{height:43px!important;grid-template-columns:1fr 160px 18px 25px!important}
+ .homeV4 .v4LaptopBody{height:329px!important;grid-template-columns:94px 1fr 124px!important}
+ .homeV4 .v4Agenda{padding:12px 10px 7px!important}
+ .homeV4 .v4Week{height:258px!important;grid-template-columns:27px repeat(3,1fr)!important;background:repeating-linear-gradient(to bottom,#26334a 0 1px,transparent 1px 25px)!important}
+ .homeV4 .v4Times{padding-top:17px!important;gap:14px!important}
+ .homeV4 .v4Phone{right:-5px!important;top:78px!important;width:162px!important;height:330px!important;border-width:6px!important;border-radius:27px!important}
+ .homeV4 .v4PhoneHead{height:49px!important}
+ .homeV4 .v4Features{height:126px!important;padding:20px 38px!important;gap:14px!important}
+ .homeV4 .v4Features article{height:90px!important;padding:17px 15px!important;grid-template-columns:40px 1fr!important;gap:10px!important}
+ .homeV4 .v4Features b{font-size:9.5px!important}.homeV4 .v4Features p{font-size:7.2px!important}
+ .homeV4 .v4Industries{padding:22px 48px 38px!important}
+}
