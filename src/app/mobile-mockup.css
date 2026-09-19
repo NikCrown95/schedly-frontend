@@ -138,3 +138,12 @@
  .mobileMenuActions>a:first-child.button{color:#fff!important;padding:0!important;border:0!important;background:linear-gradient(100deg,#0986f8,#7444ee)!important;display:flex!important;align-items:center!important;justify-content:center!important;min-height:48px!important}
  .mobileMenuActions>a:last-child{text-align:center;color:#17224a;font-weight:700;text-decoration:none;padding:12px;border:1px solid #e1e8f2;border-radius:12px;background:#fff}
 }
+
+/* Refined registration flow */
+@media(max-width:768px){
+ .mHomePage>.mSecondaryBtn,.mDashboardSection>.mSecondaryBtn{display:none!important}
+ .mobileMenuActions{display:grid;gap:10px}
+ .mobileLoginAction{min-height:48px!important;display:flex!important;align-items:center!important;justify-content:center!important;border:1px solid #e1e8f2!important;border-radius:12px!important;background:#fff!important;color:#17224a!important;font-weight:800!important;text-decoration:none!important;padding:0 14px!important}
+ .mobileSignupPrompt{margin:0;text-align:center;color:#7d899b;font-size:10px;line-height:1.45}
+ .mobileSignupPrompt a{color:#1678e9;font-weight:850;text-decoration:none}
+}
