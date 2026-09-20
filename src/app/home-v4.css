@@ -206,3 +206,13 @@ linear-gradient(180deg,#fff 0%,#fff 37%,#f8fbff 72%,#eef7ff 100%)}
   .homeV4 .v4Features .fi{width:38px!important;height:38px!important;stroke-width:4!important}
   .homeV4 .v4Features article{grid-template-columns:47px 1fr!important;gap:9px!important;align-items:center!important}
 }
+
+/* Exact feature-card reference assets. Only the four cards are affected. */
+.homeV4 .v4Features.v4FeatureImages article{
+  padding:0!important;border:0!important;background:transparent!important;
+  display:block!important;overflow:visible!important;box-shadow:none!important;
+}
+.homeV4 .v4Features.v4FeatureImages article>img{
+  display:block!important;width:100%!important;height:100%!important;
+  object-fit:fill!important;max-width:none!important;
+}
