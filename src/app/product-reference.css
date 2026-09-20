@@ -159,3 +159,11 @@
 .productRefV2 .pOverviewGrid i{width:30px!important;height:30px!important;font-size:17px!important;margin-bottom:6px!important}
 .productRefV2 .pOverviewGrid b{font-size:10px!important;margin-bottom:4px!important}.productRefV2 .pOverviewGrid span{font-size:8px!important;line-height:1.3!important}.productRefV2 .pOverviewGrid a{font-size:8px!important}
 }
+
+
+/* Exact uploaded product hero composite — replaces reconstructed overlays */
+.productRefV2 .pHeroComposite{overflow:visible!important}
+.productRefV2 .pHeroComposite>img{position:absolute!important;display:block!important;width:min(61vw,930px)!important;height:auto!important;max-width:none!important;right:0!important;top:0!important;object-fit:contain!important}
+@media (min-width:769px) and (max-width:1180px){
+.productRefV2 .pHeroComposite>img{width:61vw!important;right:0!important;top:0!important}
+}
