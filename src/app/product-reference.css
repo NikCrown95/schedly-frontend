@@ -167,3 +167,12 @@
 @media (min-width:769px) and (max-width:1180px){
 .productRefV2 .pHeroComposite>img{width:61vw!important;right:0!important;top:0!important}
 }
+
+
+/* FINAL PRODUCT NAV LOGO — render the uploaded horizontal asset directly, no crop/zoom */
+.productRefV2 .productNav .brand{overflow:visible!important}
+.productRefV2 .productNav .brand .officialProductLogo{display:block!important;width:132px!important;height:auto!important;max-width:none!important;object-fit:contain!important;transform:none!important;transform-origin:center!important}
+@media (min-width:769px) and (max-width:1180px){
+.productRefV2 .productNav .brand{width:150px!important;min-width:150px!important;height:44px!important;overflow:visible!important}
+.productRefV2 .productNav .brand .officialProductLogo{width:132px!important;height:auto!important;transform:none!important;object-fit:contain!important}
+}
